@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head >
+	<meta charset="UTF-8">
+	<title>Plantilla</title>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+	<header th:fragment="cabecera">
+		<div>
+			<h1>PLANTILLA</h1>
+		</div>
+	</header>
+
+	<main >
+		<aside th:fragment="menu">
+			<nav>
+				<ul th:each="elem : ${atr_lista_categorias}" id="menu">
+					<li class="elem_menu">
+						<a href="/menu[[${elem.nombre}]]">[[${elem.nombre}]]</a>
+					</li>
+					
+				</ul>
+			</nav>
+		</aside>
+
+		<section>
+			contenido de la pagina
+		</section>
+
+		
+	</main>
+
+
+
+</body>
+
+</html>
