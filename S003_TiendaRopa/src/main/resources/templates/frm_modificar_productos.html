@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Plantilla</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+	<div th:include="plantilla.html::cabecera"></div>
+
+	<main>
+		<aside>
+			<div th:include="plantilla.html::menu"></div>
+		</aside>
+
+		<section>
+					<form method="post" th:action="@{/adminModificarProducto}" th:object="${obj_producto}" enctype="multipart/form-data">
+						
+						<label>ID: </label>
+						<input type="text" th:field="*{id}">
+						<br>
+						  
+						<label>Nombre: </label>
+						<input type="text" th:field="*{nombre}">
+						<br>
+							
+						<label>Precio: </label>
+						<input type="text" th:field="*{precio}">
+						<br>			
+						
+						<label>Foto: </label>
+						<input type="file" name="param_foto">
+						<br>	
+						
+						<label>FotoHidden: </label>
+						<input type="text" name="param_hidden_foto" th:field="*{foto}">
+						<br>
+						
+						<label>Genero: </label>
+						<select th:field="*{genero.id}">
+							<option th:each="elem :${atr_lista_generos}" th:text="${elem.genero}" th:value="${elem.id}"></option>
+						</select>
+						
+						<br>	
+						<label>Categoria: </label>
+						<select th:field="*{categoria.id}">
+							<option th:each="elem :${atr_lista_categorias}" th:text="${elem.nombre}" th:value="${elem.id}"></option>
+						</select>
+						<br>	
+						<input type="submit" value="Agregar producto">
+						
+					</form>
+				</section>
+	</main>
+
+</body>
+</html>

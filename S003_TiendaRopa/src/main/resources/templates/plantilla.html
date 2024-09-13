@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-<head >
+<head>
 	<meta charset="UTF-8">
 	<title>Plantilla</title>
 	<link rel="stylesheet" href="css/styles.css">
@@ -15,14 +15,19 @@
 		</div>
 	</header>
 
-	<main >
+	<main>
 		<aside th:fragment="menu">
 			<nav>
 				<ul th:each="elem : ${atr_lista_categorias}" id="menu">
 					<li class="elem_menu">
-						<a href="/menu[[${elem.nombre}]]">[[${elem.nombre}]]</a>
+						<a th:href="@{/menu{nombre}(nombre=${elem.nombre})}">[[${elem.nombre}]]</a>
+
 					</li>
-					
+				</ul>
+				<ul>
+					<li class="elem_menu">
+						<a href="/admin">Admin</a>
+					</li>
 				</ul>
 			</nav>
 		</aside>
@@ -31,7 +36,7 @@
 			contenido de la pagina
 		</section>
 
-		
+
 	</main>
 
 

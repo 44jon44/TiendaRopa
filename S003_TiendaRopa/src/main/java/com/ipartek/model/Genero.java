@@ -24,19 +24,44 @@ public class Genero {
 	private String genero;
 
 	@OneToMany
-	private List<Producto> listaMoviles;
+	private List<Producto> listaProductos;
 
-	public Genero(int id, String genero, List<Producto> listaMoviles) {
+	public Genero(int id, String genero, List<Producto> listaProductos) {
 		super();
 		this.id = id;
 		this.genero = genero;
-		this.listaMoviles = listaMoviles;
+		this.listaProductos = listaProductos;
 	}
 	
 	public Genero() {
 		super();
 		this.id = 0;
 		this.genero = "";
-		this.listaMoviles = new ArrayList<>();
+		this.listaProductos = new ArrayList<>();
 	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getGenero() {
+		return genero;
+	}
+
+	public void setGenero(String genero) {
+		this.genero = genero;
+	}
+
+	public List<Producto> getListaProductos() {
+		return listaProductos;
+	}
+
+	public void setListaProductos(List<Producto> listaProductos) {
+		this.listaProductos = listaProductos;
+	}
+	
 }

@@ -9,6 +9,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.ipartek.model.Producto;
+import com.ipartek.repository.CategoriaRepository;
 import com.ipartek.repository.ProductoRepository;
 
 @Controller
@@ -17,9 +18,10 @@ public class MenuController {
 	@Autowired
 	private ProductoRepository productosRepo;
 
+	@Autowired
+	private CategoriaRepository categoriasRepo;
 	
-	
-	@RequestMapping("/menuCamisetas")
+	@RequestMapping("/menuCamiseta")
 	public String opcionCamisetas(Model model) {
 		List<Producto> listaRopa = productosRepo.findAll();
 		List<Producto> listaCamisetas = listaRopa.stream()
@@ -27,12 +29,12 @@ public class MenuController {
 		        .collect(Collectors.toList());
 
 		model.addAttribute("atr_lista_camisetas", listaCamisetas);
-
+		model.addAttribute("atr_lista_categorias", categoriasRepo.findAll());
 		return "index";
 
 	}
 	
-	@RequestMapping("/menuFaldas")
+	@RequestMapping("/menuFalda")
 	public String opcionFaldas(Model model) {
 		List<Producto> listaRopa = productosRepo.findAll();
 		List<Producto> listaFaldas = listaRopa.stream()
@@ -40,12 +42,11 @@ public class MenuController {
 		        .collect(Collectors.toList());
 
 		model.addAttribute("atr_lista_faldas", listaFaldas);
-		System.out.println(productosRepo.toString());
-		
+		model.addAttribute("atr_lista_categorias", categoriasRepo.findAll());
 		return "faldas";	
 	}
 	
-	@RequestMapping("/menuJerseys")
+	@RequestMapping("/menuJersey")
 	public String opcionJerseys(Model model) {
 		List<Producto> listaRopa = productosRepo.findAll();
 		List<Producto> listaJerseys = listaRopa.stream()
@@ -53,10 +54,11 @@ public class MenuController {
 		        .collect(Collectors.toList());
 
 		model.addAttribute("atr_lista_jerseys", listaJerseys);
+		model.addAttribute("atr_lista_categorias", categoriasRepo.findAll());
 		return "jerseys";	
 	}
 	
-	@RequestMapping("/menuPantalones")
+	@RequestMapping("/menuPantalon")
 	public String opcionPantalones(Model model) {
 		List<Producto> listaRopa = productosRepo.findAll();
 		List<Producto> listaPantalones = listaRopa.stream()
@@ -64,7 +66,7 @@ public class MenuController {
 		        .collect(Collectors.toList());
 
 		model.addAttribute("atr_lista_pantalones", listaPantalones);
-		
+		model.addAttribute("atr_lista_categorias", categoriasRepo.findAll());
 		return "pantalones";	
 	}
 	
