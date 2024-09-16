@@ -36,7 +36,7 @@
 							<td th:text="${elem.precio}">Precio</td>
 							<td>
 								<img th:src="${elem.foto}" height="64px;"><br>
-								<a href="#">Borrar</a>
+								<a th:href="@{/adminBorrarImagen(id=${elem.id}),nombre=${elem.foto}}">Borrar</a>
 							</td>
 							<td th:text="${elem.genero.genero}">Genero</td>
 							<td th:text="${elem.categoria.nombre}">Categoria</td>
@@ -73,9 +73,10 @@
 					<br />
 					<label>Categoria: </label>
 					<select th:field="*{categoria.id}">
-						<option th:each="elem :${atr_lista_categorias}" th:text="${elem.categoria}"
+						<option th:each="elem :${atr_lista_categorias}" th:text="${elem.nombre}"
 							th:value="${elem.id}"></option>
 					</select>
+					
 					<br />
 					<input type="submit" value="Agregar producto" />
 

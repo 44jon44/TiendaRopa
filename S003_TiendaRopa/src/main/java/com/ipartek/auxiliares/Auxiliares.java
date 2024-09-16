@@ -41,5 +41,6 @@ public class Auxiliares {
 		        producto.setFoto("default.jpg");
 		    }
 	}
+
 }
 

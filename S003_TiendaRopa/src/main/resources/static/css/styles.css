@@ -227,4 +227,5 @@ section {
   grid-auto-flow: row;
   grid-template-areas:
     ". .";
+	width: max-content;
 }
