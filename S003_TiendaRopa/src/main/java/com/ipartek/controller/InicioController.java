@@ -8,7 +8,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import com.ipartek.model.Privilegio;
 import com.ipartek.model.Producto;
+
 import com.ipartek.repository.CategoriaRepository;
 import com.ipartek.repository.ProductoRepository;
 
@@ -26,16 +28,15 @@ public class InicioController {
 	public String index(Model model, HttpSession session) {
 
 		List<Producto> listaRopa = productosRepo.findAll();
-		List<Producto> listaCamisetas = listaRopa.stream()
-		        .filter(prod -> prod.getCategoria().getId() == 1)
-		        .collect(Collectors.toList());
+		List<Producto> listaCamisetas = listaRopa.stream().filter(prod -> prod.getCategoria().getId() == 1)
+				.collect(Collectors.toList());
 
 		model.addAttribute("atr_lista_camisetas", listaCamisetas);
 		model.addAttribute("atr_lista_categorias", categoriasRepo.findAll());
-		
-		 session.setAttribute("usuario", "");
-		
+
+		session.setAttribute("rol", Privilegio.USUARIO);
+		session.setAttribute("Intentos", 0);
 		return "index";
-		
+
 	}
 }

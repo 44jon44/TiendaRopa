@@ -10,12 +10,15 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import com.ipartek.model.Privilegio;
 import com.ipartek.model.Producto;
 import com.ipartek.model.Usuario;
 import com.ipartek.repository.CategoriaRepository;
 import com.ipartek.repository.GeneroRepository;
 import com.ipartek.repository.ProductoRepository;
 import com.ipartek.repository.UsuarioRepository;
+
+import jakarta.servlet.http.HttpSession;
 
 @Controller
 public class MenuController {
@@ -87,8 +90,10 @@ public class MenuController {
 	}
 
 	@RequestMapping("/login")
-	public String login(Model model,@ModelAttribute(value="obj_usuario") Usuario user) {
+	public String login(Model model,@ModelAttribute(value="obj_usuario") Usuario user, HttpSession session) {
 		
+		
+				
 		System.out.println("El nombre que llega es "+user.getNombre());
 		System.out.println("La Contraseña que llega es "+user.getContraseña());
 		
@@ -101,6 +106,8 @@ public class MenuController {
 				model.addAttribute("atr_lista_generos", generosRepo.findAll());
 				
 				model.addAttribute("obj_producto", new Producto());
+				session.setAttribute("rol", Privilegio.ADMIN);
+				
 				return "admin";
 			}
 		}

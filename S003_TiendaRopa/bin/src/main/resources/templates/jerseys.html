@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Plantilla</title>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+	<div th:include="plantilla.html::cabecera"></div>
+
+	<main>
+		<aside>
+			<div th:include="plantilla.html::menu"></div>
+		</aside>
+
+		<section class="ropaContainer">
+						  <div th:each="elem : ${atr_lista_jerseys}" class="prendaContainer">
+						    <div class="nombre" th:text="${elem.nombre}"></div>
+						    <div class="foto">
+						      <img th:src="${elem.foto}" alt="Imagen de la falda"/>
+						    </div>
+							<div class="infoContainer">
+								<div class="categoria" th:text="${elem.categoria.nombre}"></div>
+								<div class="nombre" th:text="${elem.nombre}"></div>
+								<div class="precio" th:text="${elem.precio}"></div>
+							</div>
+						    
+						  </div>
+						</section>
+
+
+		
+	</main>
+
+
+
+</body>
+</html>
