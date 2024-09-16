@@ -12,6 +12,8 @@ import com.ipartek.model.Producto;
 import com.ipartek.repository.CategoriaRepository;
 import com.ipartek.repository.ProductoRepository;
 
+import jakarta.servlet.http.HttpSession;
+
 @Controller
 public class InicioController {
 
@@ -21,7 +23,7 @@ public class InicioController {
 	private CategoriaRepository categoriasRepo;
 
 	@RequestMapping("/")
-	public String index(Model model) {
+	public String index(Model model, HttpSession session) {
 
 		List<Producto> listaRopa = productosRepo.findAll();
 		List<Producto> listaCamisetas = listaRopa.stream()
@@ -30,6 +32,9 @@ public class InicioController {
 
 		model.addAttribute("atr_lista_camisetas", listaCamisetas);
 		model.addAttribute("atr_lista_categorias", categoriasRepo.findAll());
+		
+		 session.setAttribute("usuario", "");
+		
 		return "index";
 		
 	}
