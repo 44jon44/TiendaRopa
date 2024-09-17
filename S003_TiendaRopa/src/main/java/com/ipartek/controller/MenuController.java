@@ -122,6 +122,7 @@ public class MenuController {
 	            if (elem.getPriv().equals(Privilegio.ADMIN)) {
 	                return "admin";
 	            }
+	            if(elem.getPriv().equals(Privilegio.USUARIO)) {
 	            // Redirect to index if user is not admin (default behavior)
 	            List<Producto> listaRopa = productosRepo.findAll();
 	            List<Producto> listaCamisetas = listaRopa.stream()
@@ -130,6 +131,10 @@ public class MenuController {
 
 	            model.addAttribute("atr_lista_camisetas", listaCamisetas);
 	            return "index";
+	            }else if (elem.getPriv().equals(Privilegio.BLOQUEADO)) {
+	    	        return "redirect:https://www.google.es/";
+
+				}
 	        }
 	    }
 

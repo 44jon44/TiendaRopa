@@ -14,6 +14,7 @@ import jakarta.persistence.ManyToOne;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 import jakarta.persistence.Transient;
+import jakarta.persistence.UniqueConstraint;
 
 @Entity
 @Table(name = "usuarios")
@@ -22,8 +23,10 @@ public class Usuario {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "id")
 	private int id;
-	@Column(name = "nombre")
+	
+	@Column(name = "nombre",unique = true)
 	private String nombre;
+	
 	@Column(name = "contraseña")
 	private String contraseña;
 	

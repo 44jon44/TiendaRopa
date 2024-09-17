@@ -10,7 +10,7 @@
 <body>
 
 	<div th:include="plantilla.html::cabecera"></div>
-
+	<div th:include="plantillaAdmin.html::pModificacion"></div>
 	<main>
 		<aside>
 			<div th:include="plantilla.html::menu"></div>
@@ -36,7 +36,7 @@
 							<td th:text="${elem.precio}">Precio</td>
 							<td>
 								<img th:src="${elem.foto}" height="64px;"><br>
-								<a th:href="@{/adminBorrarImagen(id=${elem.id}),nombre=${elem.foto}}">Borrar</a>
+								<a th:href="@{/adminBorrarFoto(id=${elem.id})}">Borrar</a>
 							</td>
 							<td th:text="${elem.genero.genero}">Genero</td>
 							<td th:text="${elem.categoria.nombre}">Categoria</td>
@@ -49,6 +49,8 @@
 				</table>
 			</section>
 			<section>
+				<h2>Añadir Prodcto</h2>
+
 				<form method="post" th:action="@{/adminAnadirProducto}" th:object="${obj_producto}"
 					enctype="multipart/form-data">
 
@@ -73,12 +75,37 @@
 					<br />
 					<label>Categoria: </label>
 					<select th:field="*{categoria.id}">
-						<option th:each="elem :${atr_lista_categorias}" th:text="${elem.nombre}"
-							th:value="${elem.id}"></option>
+						<option th:each="elem :${atr_lista_categorias}" th:text="${elem.nombre}" th:value="${elem.id}">
+						</option>
 					</select>
-					
+
 					<br />
 					<input type="submit" value="Agregar producto" />
+
+				</form>
+				<h2>Buscar Producto</h2>
+				<form method="post" th:action="@{/busquedaFullText}" th:object="${obj_producto}"
+					enctype="multipart/form-data">
+
+					<label>Nombre: </label>
+					<input type="text" th:field="*{nombre}" />
+					<br />
+
+					<label>Genero: </label>
+					<select th:field="*{genero.id}">
+						<option th:each="elem :${atr_lista_generos}" th:text="${elem.genero}" th:value="${elem.id}">
+						</option>
+					</select>
+
+					<br />
+					<label>Categoria: </label>
+					<select th:field="*{categoria.id}">
+						<option th:each="elem :${atr_lista_categorias}" th:text="${elem.nombre}" th:value="${elem.id}">
+						</option>
+					</select>
+
+					<br />
+					<input type="submit" value="Buscar producto" />
 
 				</form>
 			</section>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Plantilla</title>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+
+	<main>
+		<section th:fragment="pModificacion">
+
+			<div th:if="${session.modificacion == 'borrarFoto'}">
+				<p>Se ha borrado Foto</p>
+
+			</div>
+			<div th:if="${session.modificacion == 'borrarProducto'}">
+				<p>Se ha borrado Producto</p>
+
+			</div>
+			<div th:if="${session.modificacion == 'anadirProducto'}">
+				<p>Se ha añadido Producto</p>
+			</div>
+			<div th:if="${session.modificacion == 'modificarProducto'}">
+				<p>Se ha modificado Producto</p>
+
+			</div>
+
+
+
+		</section>
+
+
+	</main>
+
+
+
+</body>
+
+</html>
