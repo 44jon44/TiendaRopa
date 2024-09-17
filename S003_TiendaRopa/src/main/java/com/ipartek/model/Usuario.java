@@ -32,6 +32,21 @@ public class Usuario {
 
 
 
+	public Usuario(int id, String nombre, String contraseña, Privilegio priv) {
+		super();
+		this.id = id;
+		this.nombre = nombre;
+		this.contraseña = contraseña;
+		this.priv = priv;
+	}
+	
+	public Usuario() {
+		super();
+		this.id = 0;
+		this.nombre = "";
+		this.contraseña = "";
+		this.priv = null;
+	}
 	public int getId() {
 		return id;
 	}
@@ -49,6 +64,12 @@ public class Usuario {
 	}
 	public void setContraseña(String contraseña) {
 		this.contraseña = contraseña;
+	}
+	public Privilegio getPriv() {
+		return priv;
+	}
+	public void setPriv(Privilegio priv) {
+		this.priv = priv;
 	}
 
 }

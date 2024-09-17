@@ -67,7 +67,7 @@ public class AdminController {
 			prod = new Producto();
 
 		}
-		System.out.println(prod.getNombre());
+		
 		model.addAttribute("obj_producto", prod);
 		return "frm_modificar_productos";
 	}

@@ -7,5 +7,6 @@ import com.ipartek.model.Usuario;
 
 @Repository
 public interface UsuarioRepository extends JpaRepository<Usuario, Integer>{
-	
+    Usuario findByNombre(String nombre);
+
 }
