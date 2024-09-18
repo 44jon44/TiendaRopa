@@ -12,7 +12,7 @@ import com.ipartek.model.Producto;
 @Repository
 public interface ProductoRepository extends JpaRepository<Producto, Integer>{
 	
-	@Query(value = "SELECT * FROM vistafulltext WHERE producto= :producto and genero= :genero and categoria :categoria", nativeQuery = true)
-	List<Producto> buscarProducto(@Param("producto") String prod,@Param("genero") String gen,@Param("categoria") String cat);
+	@Query(value = "SELECT * FROM productos WHERE nombre = :producto AND genero_id = :genero AND categoria_id = :categoria", nativeQuery = true)
+	List<Producto> buscarProducto(@Param("producto") String prod, @Param("genero") int genero, @Param("categoria") int categoria);
 	
 }

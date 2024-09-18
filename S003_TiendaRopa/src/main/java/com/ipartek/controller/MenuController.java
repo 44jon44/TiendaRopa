@@ -9,6 +9,7 @@ import javax.lang.model.element.Element;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -20,6 +21,7 @@ import com.ipartek.repository.CategoriaRepository;
 import com.ipartek.repository.GeneroRepository;
 import com.ipartek.repository.ProductoRepository;
 import com.ipartek.repository.UsuarioRepository;
+import com.ipartek.service.Hashing;
 
 import jakarta.servlet.http.HttpSession;
 
@@ -98,16 +100,17 @@ public class MenuController {
 	    if (intentos == null) {
 	        intentos = 0;
 	    }
-
+	    
 	    System.out.println("El nombre que llega es " + user.getNombre());
 	    System.out.println("La Contraseña que llega es " + user.getContraseña());
-
+        String contraseñaHashed=Hashing.hash(user.getContraseña());
+        System.out.println(contraseñaHashed);
 	    // Fetch all users
 	    List<Usuario> usuarios = usuariosRepo.findAll();
 	    
 	    for (Usuario elem : usuarios) {
 	        // Check if username and password match
-	        if (elem.getNombre().equals(user.getNombre()) && elem.getContraseña().equals(user.getContraseña())) {
+	        if (elem.getNombre().equals(user.getNombre()) && elem.getContraseña().equals(contraseñaHashed)) {
 	            model.addAttribute("atr_lista_categorias", categoriasRepo.findAll());
 	            model.addAttribute("atr_lista_productos", productosRepo.findAll());
 	            model.addAttribute("atr_lista_generos", generosRepo.findAll());
@@ -136,6 +139,7 @@ public class MenuController {
 
 				}
 	        }
+	        session.setAttribute("usuario", user.getNombre());
 	    }
 
 	    // If no users match, increment attempts and handle blocking

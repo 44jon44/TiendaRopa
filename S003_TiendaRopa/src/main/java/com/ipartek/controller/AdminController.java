@@ -1,5 +1,7 @@
 package com.ipartek.controller;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import java.io.File;
 import java.util.List;
 import java.util.Optional;
@@ -19,6 +21,7 @@ import com.ipartek.model.Producto;
 import com.ipartek.repository.CategoriaRepository;
 import com.ipartek.repository.GeneroRepository;
 import com.ipartek.repository.ProductoRepository;
+import com.ipartek.service.AdvancedLogger;
 
 import jakarta.servlet.http.HttpSession;
 
@@ -31,19 +34,26 @@ public class AdminController {
 	private CategoriaRepository categoriasRepo;
 	@Autowired
 	private GeneroRepository generosRepo;
+	private static final Logger logger = LogManager.getLogger(AdvancedLogger.class);
 
 	@RequestMapping("/admin")
 	public String admin(Model model, @ModelAttribute("obj_producto") Producto prod, HttpSession session) {
 		if (session.getAttribute("rol").equals(Privilegio.ADMIN)) {
-			model.addAttribute("atr_lista_categorias", categoriasRepo.findAll());
+
 			model.addAttribute("atr_lista_productos", productosRepo.findAll());
+			model.addAttribute("atr_lista_categorias", categoriasRepo.findAll());
 			model.addAttribute("atr_lista_generos", generosRepo.findAll());
 
 			model.addAttribute("obj_producto", new Producto());
-			
+			logger.info("Ha iniciado sesion" + session.getAttribute("usuario"));
+			logger.debug("Debugging log");
+	        logger.info("Info log");
+	        logger.warn("Hey, This is a warning!");
+	        logger.error("Oops! We have an Error. OK");
+	        logger.fatal("Damn! Fatal error. Please fix me.");
 			return "admin";
-		}else {
-	        return "redirect:https://www.google.es/";
+		} else {
+			return "redirect:https://www.google.es/";
 		}
 
 	}
@@ -58,7 +68,7 @@ public class AdminController {
 			e.printStackTrace();
 		}
 		session.setAttribute("modificacion", "borrarProducto");
-        return "redirect:/admin";
+		return "redirect:/admin";
 	}
 
 	@RequestMapping("/adminFrmModificarProducto")
@@ -95,8 +105,8 @@ public class AdminController {
 	@RequestMapping("/adminBorrarFoto")
 	public String borrarfotoAdmin(Model model, @RequestParam(value = "param_foto", required = false) String nombre,
 			@RequestParam(value = "id", required = false) int id, HttpSession session) {
-		String ruta = "src/main/resources/static/imagenes" + nombre;
-
+		Optional<Producto> prod = productosRepo.findById(id);
+		String ruta = "src/main/resources/static/" + prod.get().getFoto();
 		File archivoFoto = new File(ruta);
 		// HACER
 		if (archivoFoto.exists()) {
@@ -108,8 +118,6 @@ public class AdminController {
 		} else {
 			System.out.println("Foto no Encontrada");
 		}
-
-		Optional<Producto> prod = productosRepo.findById(id);
 
 		prod.get().setFoto("imagenes/default.jpg");
 
@@ -128,18 +136,23 @@ public class AdminController {
 		Auxiliares.guardarImagen(producto, archivo);
 		model.addAttribute("obj_producto", producto);
 		productosRepo.save(producto);
-		
+
 		session.setAttribute("modificacion", "anadirProducto");
 		return "redirect:/admin";
 	}
+
 	@RequestMapping("/busquedaFullText")
 	public String buscarProductoAdmin(Model model, @ModelAttribute(value = "obj_producto") Producto producto,
-			 HttpSession session) {
+			HttpSession session) {
+		model.addAttribute("obj_producto", new Producto());
 
-		
+		List<Producto> listaProd = productosRepo.buscarProducto(producto.getNombre(), producto.getCategoria().getId(),
+				producto.getGenero().getId());
+		model.addAttribute("atr_lista_productos", listaProd);
+		model.addAttribute("atr_lista_categorias", categoriasRepo.findAll());
+		model.addAttribute("atr_lista_generos", generosRepo.findAll());
 
-		
-		session.setAttribute("modificacion", "anadirProducto");
-		return "redirect:/admin";
+		session.setAttribute("modificacion", "buscarProducto");
+		return "admin";
 	}
 }
