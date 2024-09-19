@@ -67,6 +67,9 @@ public class Producto {
 	public void setFoto(String foto) {
 		this.foto = foto;
 	}
-	
+	public String toCSV() {
+	    return id + "," + nombre + "," + precio + "," + foto + "," + categoria.getId() + "," + genero.getId();
+	}
+
 	
 }

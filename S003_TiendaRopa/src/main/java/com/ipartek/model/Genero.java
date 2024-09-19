@@ -26,11 +26,11 @@ public class Genero {
 	@OneToMany
 	private List<Producto> listaProductos;
 
-	public Genero(int id, String genero, List<Producto> listaProductos) {
+	public Genero(int id, String genero) {
 		super();
 		this.id = id;
 		this.genero = genero;
-		this.listaProductos = listaProductos;
+		
 	}
 	
 	public Genero() {
@@ -63,5 +63,7 @@ public class Genero {
 	public void setListaProductos(List<Producto> listaProductos) {
 		this.listaProductos = listaProductos;
 	}
-	
+	public String toCSV() {
+	    return id + "," + genero;
+	}
 }

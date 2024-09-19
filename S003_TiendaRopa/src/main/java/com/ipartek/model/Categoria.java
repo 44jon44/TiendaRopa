@@ -52,7 +52,27 @@ import jakarta.persistence.Table;
 		public void setListaProductos(List<Producto> listaProductos) {
 			this.listaProductos = listaProductos;
 		}
-		
+
+		public Categoria(int id, String nombre) {
+			super();
+			this.id = id;
+			this.nombre = nombre;
+			
+		}
+
+		public Categoria(int id, String nombre, List<Producto> listaProductos) {
+			super();
+			this.id = 0;
+			this.nombre = "";
+			this.listaProductos = new ArrayList<>();
+		}
+
+		public Categoria() {
+			super();
+		}
+		public String toCSV() {
+		    return id + "," + nombre;
+		}
 		
 
 }

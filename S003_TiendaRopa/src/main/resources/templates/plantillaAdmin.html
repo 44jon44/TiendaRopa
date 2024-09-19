@@ -12,10 +12,8 @@
 
 	<main>
 		<section th:fragment="pModificacion">
-
 			<div th:if="${session.modificacion == 'borrarFoto'}">
 				<p>Se ha borrado Foto</p>
-
 			</div>
 			<div th:if="${session.modificacion == 'borrarProducto'}">
 				<p>Se ha borrado Producto</p>
@@ -32,15 +30,10 @@
 				<p>Se ha buscado Producto</p>
 
 			</div>
-
-
+			<div th:if="${session.modificacion == 'copiaSeguridad'}">
+				<p>Se ha generado una copia de Seguridad</p>
+			</div>
 		</section>
-
-
 	</main>
-
-
-
 </body>
-
 </html>
