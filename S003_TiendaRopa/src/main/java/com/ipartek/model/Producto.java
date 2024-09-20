@@ -12,7 +12,6 @@ import jakarta.persistence.Table;
 @Table(name = "productos")
 public class Producto {
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "id")
 	private int id;
 	@Column(name = "nombre")
@@ -29,7 +28,28 @@ public class Producto {
 	@ManyToOne
 	@JoinColumn(name = "categoria_id", nullable = false)
 	private Categoria categoria;
-  
+	
+	
+
+	public Producto(int id, String nombre, double precio, String foto, Genero genero, Categoria categoria) {
+		super();
+		this.id = id;
+		this.nombre = nombre;
+		this.precio = precio;
+		this.foto = foto;
+		this.genero = genero;
+		this.categoria = categoria;
+	}
+	
+	public Producto() {
+		super();
+		this.id = 0;
+		this.nombre = "";
+		this.precio = 0.0;
+		this.foto = "";
+		this.genero = new Genero();
+		this.categoria = new Categoria();
+	}
 
 	public int getId() {
 		return id;

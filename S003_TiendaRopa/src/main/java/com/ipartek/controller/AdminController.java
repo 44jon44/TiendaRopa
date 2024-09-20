@@ -16,7 +16,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 
+import com.ipartek.auxiliares.AdvancedLogger;
 import com.ipartek.auxiliares.Auxiliares;
+import com.ipartek.auxiliares.CSVWriter;
 import com.ipartek.model.Categoria;
 import com.ipartek.model.Genero;
 import com.ipartek.model.Privilegio;
@@ -24,8 +26,6 @@ import com.ipartek.model.Producto;
 import com.ipartek.repository.CategoriaRepository;
 import com.ipartek.repository.GeneroRepository;
 import com.ipartek.repository.ProductoRepository;
-import com.ipartek.service.AdvancedLogger;
-import com.ipartek.service.CSVWriter;
 
 import jakarta.servlet.http.HttpSession;
 
@@ -161,38 +161,5 @@ public class AdminController {
 		session.setAttribute("modificacion", "buscarProducto");
 		return "admin";
 	}
-
-	@RequestMapping("/copiaSeguridadProductos")
-	public String copiaSeguriadProductos(Model model, @ModelAttribute(value = "obj_producto") Producto producto,
-			HttpSession session) {
-		model.addAttribute("obj_producto", new Producto());
-
-		List<Object> listaProd = new ArrayList<>(productosRepo.findAll());
-		session.setAttribute("modificacion", "copiaSeguridadProductos");
-
-		CSVWriter.escribirCSV("src/main/resources/copiasSeguridad/productos.csv", listaProd, session);
-
-		return "redirect:/admin";	}
-
-	@RequestMapping("/copiaSeguridadCategorias")
-	public String copiaSeguriadCategorias(Model model, @ModelAttribute(value = "obj_categoria") Categoria cat,
-			HttpSession session) {
-		model.addAttribute("obj_categoria", new Categoria());
-
-		List<Object> listaCat = new ArrayList<>(categoriasRepo.findAll());
-		session.setAttribute("modificacion", "copiaSeguridadCategorias");
-		CSVWriter.escribirCSV("src/main/resources/copiasSeguridad/categorias.csv", listaCat, session);
-
-		return "redirect:/admin";	}
-
-	@RequestMapping("/copiaSeguridadGeneros")
-	public String copiaSeguriadGeneros(Model model, @ModelAttribute(value = "obj_genero") Genero gen,
-			HttpSession session) {
-		model.addAttribute("obj_genero", new Genero());
-
-		List<Object> listaGen = new ArrayList<>(generosRepo.findAll());
-		session.setAttribute("modificacion", "copiaSeguridadGeneros");
-		CSVWriter.escribirCSV("src/main/resources/copiasSeguridad/generos.csv", listaGen, session);
-
-		return "redirect:/admin";	}
 }
+	

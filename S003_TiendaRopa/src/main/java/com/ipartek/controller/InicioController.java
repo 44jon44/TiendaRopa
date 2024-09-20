@@ -10,12 +10,12 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import com.ipartek.auxiliares.AdvancedLogger;
 import com.ipartek.model.Privilegio;
 import com.ipartek.model.Producto;
 
 import com.ipartek.repository.CategoriaRepository;
 import com.ipartek.repository.ProductoRepository;
-import com.ipartek.service.AdvancedLogger;
 
 import jakarta.servlet.http.HttpSession;
 

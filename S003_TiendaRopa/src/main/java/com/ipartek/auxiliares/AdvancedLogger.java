@@ -1,4 +1,4 @@
-package com.ipartek.service;
+package com.ipartek.auxiliares;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

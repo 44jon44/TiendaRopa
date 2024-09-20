@@ -946,3 +946,1017 @@
 			c.i.S003TiendaRopaApplication            : No active profile set, falling back to 1 default profile: "default"
 2024-09-19 11:43:59.750  INFO DESKTOP-BK63CH3 --- [  restartedMain]
 			c.i.S003TiendaRopaApplication            : Started S003TiendaRopaApplication in 0.505 seconds (process running for 49.606)
+2024-09-19 11:49:12.391  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Starting S003TiendaRopaApplication using Java 21.0.3 with PID 276 (C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa\target\classes started by HTML in C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa)
+2024-09-19 11:49:12.396 DEBUG DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-19 11:49:12.397  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-09-19 11:49:15.637  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Started S003TiendaRopaApplication in 3.502 seconds (process running for 4.36)
+2024-09-19 11:49:21.818 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.s.AdvancedLogger                     : Debugging log
+2024-09-19 11:49:21.818  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.s.AdvancedLogger                     : Info log
+2024-09-19 11:49:21.819  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.s.AdvancedLogger                     : Hey, This is a warning!
+2024-09-19 11:49:21.819 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.s.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-19 11:49:21.819 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.s.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-19 11:49:27.122  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-4]
+			c.i.s.AdvancedLogger                     : Ha iniciado sesion2
+2024-09-19 11:49:27.123 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-4]
+			c.i.s.AdvancedLogger                     : Debugging log
+2024-09-19 11:49:27.123  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-4]
+			c.i.s.AdvancedLogger                     : Info log
+2024-09-19 11:49:27.123  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-4]
+			c.i.s.AdvancedLogger                     : Hey, This is a warning!
+2024-09-19 11:49:27.123 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-4]
+			c.i.s.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-19 11:49:27.123 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-4]
+			c.i.s.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-19 11:49:27.464  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-5]
+			c.i.s.AdvancedLogger                     : Ha iniciado sesion2
+2024-09-19 11:49:27.464 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-5]
+			c.i.s.AdvancedLogger                     : Debugging log
+2024-09-19 11:49:27.464  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-5]
+			c.i.s.AdvancedLogger                     : Info log
+2024-09-19 11:49:27.464  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-5]
+			c.i.s.AdvancedLogger                     : Hey, This is a warning!
+2024-09-19 11:49:27.464 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-5]
+			c.i.s.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-19 11:49:27.464 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-5]
+			c.i.s.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-19 11:49:27.786  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-5]
+			c.i.s.AdvancedLogger                     : Ha iniciado sesion2
+2024-09-19 11:49:27.786 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-5]
+			c.i.s.AdvancedLogger                     : Debugging log
+2024-09-19 11:49:27.786  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-5]
+			c.i.s.AdvancedLogger                     : Info log
+2024-09-19 11:49:27.786  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-5]
+			c.i.s.AdvancedLogger                     : Hey, This is a warning!
+2024-09-19 11:49:27.786 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-5]
+			c.i.s.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-19 11:49:27.787 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-5]
+			c.i.s.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-19 11:49:36.701  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Starting S003TiendaRopaApplication using Java 21.0.3 with PID 276 (C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa\target\classes started by HTML in C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa)
+2024-09-19 11:49:36.701 DEBUG DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-19 11:49:36.701  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-09-19 11:49:37.235  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Started S003TiendaRopaApplication in 0.58 seconds (process running for 25.958)
+2024-09-20 10:29:54.706  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Starting S003TiendaRopaApplication using Java 21.0.3 with PID 1660 (C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa\target\classes started by HTML in C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa)
+2024-09-20 10:29:54.712 DEBUG DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-20 10:29:54.712  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-09-20 10:31:28.406  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Starting S003TiendaRopaApplication using Java 21.0.3 with PID 11676 (C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa\target\classes started by HTML in C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa)
+2024-09-20 10:31:28.413 DEBUG DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-20 10:31:28.413  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-09-20 10:31:31.775  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Started S003TiendaRopaApplication in 3.631 seconds (process running for 4.556)
+2024-09-20 10:31:34.609 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Debugging log
+2024-09-20 10:31:34.609  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Info log
+2024-09-20 10:31:34.609  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Hey, This is a warning!
+2024-09-20 10:31:34.609 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-20 10:31:34.609 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-20 10:31:44.323  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Ha iniciado sesion2
+2024-09-20 10:31:44.323 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Debugging log
+2024-09-20 10:31:44.323  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Info log
+2024-09-20 10:31:44.323  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Hey, This is a warning!
+2024-09-20 10:31:44.323 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-20 10:31:44.323 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-20 10:31:55.699  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-4]
+			c.i.a.AdvancedLogger                     : Ha iniciado sesion2
+2024-09-20 10:31:55.699 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-4]
+			c.i.a.AdvancedLogger                     : Debugging log
+2024-09-20 10:31:55.699  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-4]
+			c.i.a.AdvancedLogger                     : Info log
+2024-09-20 10:31:55.699  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-4]
+			c.i.a.AdvancedLogger                     : Hey, This is a warning!
+2024-09-20 10:31:55.699 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-4]
+			c.i.a.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-20 10:31:55.699 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-4]
+			c.i.a.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-20 10:31:57.722  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-7]
+			c.i.a.AdvancedLogger                     : Ha iniciado sesion2
+2024-09-20 10:31:57.722 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-7]
+			c.i.a.AdvancedLogger                     : Debugging log
+2024-09-20 10:31:57.722  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-7]
+			c.i.a.AdvancedLogger                     : Info log
+2024-09-20 10:31:57.722  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-7]
+			c.i.a.AdvancedLogger                     : Hey, This is a warning!
+2024-09-20 10:31:57.722 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-7]
+			c.i.a.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-20 10:31:57.722 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-7]
+			c.i.a.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-20 10:32:11.583 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-9]
+			c.i.a.AdvancedLogger                     : Debugging log
+2024-09-20 10:32:11.583  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-9]
+			c.i.a.AdvancedLogger                     : Info log
+2024-09-20 10:32:11.583  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-9]
+			c.i.a.AdvancedLogger                     : Hey, This is a warning!
+2024-09-20 10:32:11.583 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-9]
+			c.i.a.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-20 10:32:11.583 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-9]
+			c.i.a.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-20 10:32:34.369  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Starting S003TiendaRopaApplication using Java 21.0.3 with PID 2316 (C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa\target\classes started by HTML in C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa)
+2024-09-20 10:32:34.375 DEBUG DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-20 10:32:34.375  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-09-20 10:32:38.156  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Started S003TiendaRopaApplication in 4.082 seconds (process running for 5.24)
+2024-09-20 10:32:39.268 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-2]
+			c.i.a.AdvancedLogger                     : Debugging log
+2024-09-20 10:32:39.268  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-2]
+			c.i.a.AdvancedLogger                     : Info log
+2024-09-20 10:32:39.268  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-2]
+			c.i.a.AdvancedLogger                     : Hey, This is a warning!
+2024-09-20 10:32:39.268 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-2]
+			c.i.a.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-20 10:32:39.268 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-2]
+			c.i.a.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-20 10:34:02.956  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Starting S003TiendaRopaApplication using Java 21.0.3 with PID 12972 (C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa\target\classes started by HTML in C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa)
+2024-09-20 10:34:02.965 DEBUG DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-20 10:34:02.966  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-09-20 10:34:07.179  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Starting S003TiendaRopaApplication using Java 21.0.3 with PID 7036 (C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa\target\classes started by HTML in C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa)
+2024-09-20 10:34:07.185 DEBUG DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-20 10:34:07.186  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-09-20 10:34:10.949  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Started S003TiendaRopaApplication in 4.065 seconds (process running for 5.185)
+2024-09-20 10:34:13.476 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Debugging log
+2024-09-20 10:34:13.476  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Info log
+2024-09-20 10:34:13.476  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Hey, This is a warning!
+2024-09-20 10:34:13.476 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-20 10:34:13.477 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-20 10:40:09.656  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Starting S003TiendaRopaApplication using Java 21.0.3 with PID 4588 (C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa\target\classes started by HTML in C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa)
+2024-09-20 10:40:09.661 DEBUG DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-20 10:40:09.662  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-09-20 10:40:12.941  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Started S003TiendaRopaApplication in 3.55 seconds (process running for 4.432)
+2024-09-20 10:40:14.526 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Debugging log
+2024-09-20 10:40:14.526  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Info log
+2024-09-20 10:40:14.526  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Hey, This is a warning!
+2024-09-20 10:40:14.526 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-20 10:40:14.526 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-20 10:40:20.032  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-9]
+			c.i.a.AdvancedLogger                     : Ha iniciado sesion2
+2024-09-20 10:40:20.032 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-9]
+			c.i.a.AdvancedLogger                     : Debugging log
+2024-09-20 10:40:20.032  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-9]
+			c.i.a.AdvancedLogger                     : Info log
+2024-09-20 10:40:20.032  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-9]
+			c.i.a.AdvancedLogger                     : Hey, This is a warning!
+2024-09-20 10:40:20.032 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-9]
+			c.i.a.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-20 10:40:20.032 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-9]
+			c.i.a.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-20 10:40:24.481  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-3]
+			c.i.a.AdvancedLogger                     : Ha iniciado sesion2
+2024-09-20 10:40:24.481 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-3]
+			c.i.a.AdvancedLogger                     : Debugging log
+2024-09-20 10:40:24.481  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-3]
+			c.i.a.AdvancedLogger                     : Info log
+2024-09-20 10:40:24.481  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-3]
+			c.i.a.AdvancedLogger                     : Hey, This is a warning!
+2024-09-20 10:40:24.481 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-3]
+			c.i.a.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-20 10:40:24.481 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-3]
+			c.i.a.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-20 10:40:25.228  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-7]
+			c.i.a.AdvancedLogger                     : Ha iniciado sesion2
+2024-09-20 10:40:25.228 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-7]
+			c.i.a.AdvancedLogger                     : Debugging log
+2024-09-20 10:40:25.228  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-7]
+			c.i.a.AdvancedLogger                     : Info log
+2024-09-20 10:40:25.228  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-7]
+			c.i.a.AdvancedLogger                     : Hey, This is a warning!
+2024-09-20 10:40:25.228 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-7]
+			c.i.a.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-20 10:40:25.228 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-7]
+			c.i.a.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-20 10:40:30.124  INFO DESKTOP-BK63CH3 --- [io-8080-exec-10]
+			c.i.a.AdvancedLogger                     : Ha iniciado sesion2
+2024-09-20 10:40:30.124 DEBUG DESKTOP-BK63CH3 --- [io-8080-exec-10]
+			c.i.a.AdvancedLogger                     : Debugging log
+2024-09-20 10:40:30.124  INFO DESKTOP-BK63CH3 --- [io-8080-exec-10]
+			c.i.a.AdvancedLogger                     : Info log
+2024-09-20 10:40:30.124  WARN DESKTOP-BK63CH3 --- [io-8080-exec-10]
+			c.i.a.AdvancedLogger                     : Hey, This is a warning!
+2024-09-20 10:40:30.124 ERROR DESKTOP-BK63CH3 --- [io-8080-exec-10]
+			c.i.a.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-20 10:40:30.124 FATAL DESKTOP-BK63CH3 --- [io-8080-exec-10]
+			c.i.a.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-20 10:42:10.303  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Starting S003TiendaRopaApplication using Java 21.0.3 with PID 12452 (C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa\target\classes started by HTML in C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa)
+2024-09-20 10:42:10.309 DEBUG DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-20 10:42:10.309  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-09-20 10:42:14.000  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Starting S003TiendaRopaApplication using Java 21.0.3 with PID 2968 (C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa\target\classes started by HTML in C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa)
+2024-09-20 10:42:14.005 DEBUG DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-20 10:42:14.006  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-09-20 10:42:17.758  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Started S003TiendaRopaApplication in 4.051 seconds (process running for 5.177)
+2024-09-20 10:42:26.590 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-2]
+			c.i.a.AdvancedLogger                     : Debugging log
+2024-09-20 10:42:26.590  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-2]
+			c.i.a.AdvancedLogger                     : Info log
+2024-09-20 10:42:26.590  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-2]
+			c.i.a.AdvancedLogger                     : Hey, This is a warning!
+2024-09-20 10:42:26.590 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-2]
+			c.i.a.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-20 10:42:26.590 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-2]
+			c.i.a.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-20 10:44:53.605  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Starting S003TiendaRopaApplication using Java 21.0.3 with PID 11752 (C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa\target\classes started by HTML in C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa)
+2024-09-20 10:44:53.610 DEBUG DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-20 10:44:53.611  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-09-20 10:44:56.899  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Started S003TiendaRopaApplication in 3.558 seconds (process running for 4.435)
+2024-09-20 10:44:58.386 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Debugging log
+2024-09-20 10:44:58.386  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Info log
+2024-09-20 10:44:58.386  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Hey, This is a warning!
+2024-09-20 10:44:58.386 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-20 10:44:58.386 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-20 10:45:04.970  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-8]
+			c.i.a.AdvancedLogger                     : Ha iniciado sesion2
+2024-09-20 10:45:04.970 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-8]
+			c.i.a.AdvancedLogger                     : Debugging log
+2024-09-20 10:45:04.970  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-8]
+			c.i.a.AdvancedLogger                     : Info log
+2024-09-20 10:45:04.970  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-8]
+			c.i.a.AdvancedLogger                     : Hey, This is a warning!
+2024-09-20 10:45:04.970 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-8]
+			c.i.a.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-20 10:45:04.970 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-8]
+			c.i.a.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-20 10:45:40.396  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Ha iniciado sesion2
+2024-09-20 10:45:40.396 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Debugging log
+2024-09-20 10:45:40.396  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Info log
+2024-09-20 10:45:40.396  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Hey, This is a warning!
+2024-09-20 10:45:40.396 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-20 10:45:40.396 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-20 11:36:52.886  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Starting S003TiendaRopaApplication using Java 21.0.3 with PID 6960 (C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa\target\classes started by HTML in C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa)
+2024-09-20 11:36:52.892 DEBUG DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-20 11:36:52.893  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-09-20 11:36:56.444  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Started S003TiendaRopaApplication in 3.831 seconds (process running for 4.756)
+2024-09-20 11:37:04.491 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Debugging log
+2024-09-20 11:37:04.491  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Info log
+2024-09-20 11:37:04.492  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Hey, This is a warning!
+2024-09-20 11:37:04.492 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-20 11:37:04.492 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-20 11:37:13.008  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-9]
+			c.i.a.AdvancedLogger                     : Ha iniciado sesion2
+2024-09-20 11:37:13.008 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-9]
+			c.i.a.AdvancedLogger                     : Debugging log
+2024-09-20 11:37:13.008  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-9]
+			c.i.a.AdvancedLogger                     : Info log
+2024-09-20 11:37:13.008  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-9]
+			c.i.a.AdvancedLogger                     : Hey, This is a warning!
+2024-09-20 11:37:13.008 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-9]
+			c.i.a.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-20 11:37:13.008 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-9]
+			c.i.a.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-20 11:37:13.794  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-2]
+			c.i.a.AdvancedLogger                     : Ha iniciado sesion2
+2024-09-20 11:37:13.794 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-2]
+			c.i.a.AdvancedLogger                     : Debugging log
+2024-09-20 11:37:13.794  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-2]
+			c.i.a.AdvancedLogger                     : Info log
+2024-09-20 11:37:13.794  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-2]
+			c.i.a.AdvancedLogger                     : Hey, This is a warning!
+2024-09-20 11:37:13.794 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-2]
+			c.i.a.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-20 11:37:13.795 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-2]
+			c.i.a.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-20 11:42:40.852  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Starting S003TiendaRopaApplication using Java 21.0.3 with PID 7672 (C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa\target\classes started by HTML in C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa)
+2024-09-20 11:42:40.857 DEBUG DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-20 11:42:40.858  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-09-20 11:42:44.092  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Started S003TiendaRopaApplication in 3.501 seconds (process running for 4.369)
+2024-09-20 11:42:45.365 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Debugging log
+2024-09-20 11:42:45.365  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Info log
+2024-09-20 11:42:45.365  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Hey, This is a warning!
+2024-09-20 11:42:45.365 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-20 11:42:45.365 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-20 11:42:45.645 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-2]
+			c.i.a.AdvancedLogger                     : Debugging log
+2024-09-20 11:42:45.645  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-2]
+			c.i.a.AdvancedLogger                     : Info log
+2024-09-20 11:42:45.645  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-2]
+			c.i.a.AdvancedLogger                     : Hey, This is a warning!
+2024-09-20 11:42:45.645 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-2]
+			c.i.a.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-20 11:42:45.645 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-2]
+			c.i.a.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-20 11:43:48.027 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Debugging log
+2024-09-20 11:43:48.027  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Info log
+2024-09-20 11:43:48.027  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Hey, This is a warning!
+2024-09-20 11:43:48.027 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-20 11:43:48.027 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-20 11:44:22.881  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Starting S003TiendaRopaApplication using Java 21.0.3 with PID 8536 (C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa\target\classes started by HTML in C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa)
+2024-09-20 11:44:22.888 DEBUG DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-20 11:44:22.888  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-09-20 11:44:26.717  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Started S003TiendaRopaApplication in 4.136 seconds (process running for 5.249)
+2024-09-20 11:45:00.124 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-2]
+			c.i.a.AdvancedLogger                     : Debugging log
+2024-09-20 11:45:00.124  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-2]
+			c.i.a.AdvancedLogger                     : Info log
+2024-09-20 11:45:00.124  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-2]
+			c.i.a.AdvancedLogger                     : Hey, This is a warning!
+2024-09-20 11:45:00.124 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-2]
+			c.i.a.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-20 11:45:00.125 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-2]
+			c.i.a.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-20 11:47:05.174 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-9]
+			c.i.a.AdvancedLogger                     : Debugging log
+2024-09-20 11:47:05.174  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-9]
+			c.i.a.AdvancedLogger                     : Info log
+2024-09-20 11:47:05.174  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-9]
+			c.i.a.AdvancedLogger                     : Hey, This is a warning!
+2024-09-20 11:47:05.174 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-9]
+			c.i.a.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-20 11:47:05.174 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-9]
+			c.i.a.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-20 11:47:48.968  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Starting S003TiendaRopaApplication using Java 21.0.3 with PID 6204 (C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa\target\classes started by HTML in C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa)
+2024-09-20 11:47:48.974 DEBUG DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-20 11:47:48.974  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-09-20 11:47:52.217  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Started S003TiendaRopaApplication in 3.502 seconds (process running for 4.352)
+2024-09-20 11:47:53.628 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Debugging log
+2024-09-20 11:47:53.628  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Info log
+2024-09-20 11:47:53.628  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Hey, This is a warning!
+2024-09-20 11:47:53.629 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-20 11:47:53.629 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-20 11:48:01.688  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-8]
+			c.i.a.AdvancedLogger                     : Ha iniciado sesion2
+2024-09-20 11:48:01.688 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-8]
+			c.i.a.AdvancedLogger                     : Debugging log
+2024-09-20 11:48:01.688  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-8]
+			c.i.a.AdvancedLogger                     : Info log
+2024-09-20 11:48:01.688  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-8]
+			c.i.a.AdvancedLogger                     : Hey, This is a warning!
+2024-09-20 11:48:01.688 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-8]
+			c.i.a.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-20 11:48:01.688 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-8]
+			c.i.a.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-20 12:01:30.629  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-2]
+			c.i.a.AdvancedLogger                     : Ha iniciado sesion2
+2024-09-20 12:01:30.629 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-2]
+			c.i.a.AdvancedLogger                     : Debugging log
+2024-09-20 12:01:30.629  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-2]
+			c.i.a.AdvancedLogger                     : Info log
+2024-09-20 12:01:30.629  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-2]
+			c.i.a.AdvancedLogger                     : Hey, This is a warning!
+2024-09-20 12:01:30.629 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-2]
+			c.i.a.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-20 12:01:30.629 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-2]
+			c.i.a.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-20 12:02:42.092  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Starting S003TiendaRopaApplication using Java 21.0.3 with PID 5816 (C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa\target\classes started by HTML in C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa)
+2024-09-20 12:02:42.097 DEBUG DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-20 12:02:42.098  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-09-20 12:02:45.369  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Started S003TiendaRopaApplication in 3.531 seconds (process running for 4.432)
+2024-09-20 12:02:58.113 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Debugging log
+2024-09-20 12:02:58.113  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Info log
+2024-09-20 12:02:58.113  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Hey, This is a warning!
+2024-09-20 12:02:58.113 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-20 12:02:58.113 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-20 12:03:03.535  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-8]
+			c.i.a.AdvancedLogger                     : Ha iniciado sesion2
+2024-09-20 12:03:03.535 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-8]
+			c.i.a.AdvancedLogger                     : Debugging log
+2024-09-20 12:03:03.535  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-8]
+			c.i.a.AdvancedLogger                     : Info log
+2024-09-20 12:03:03.535  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-8]
+			c.i.a.AdvancedLogger                     : Hey, This is a warning!
+2024-09-20 12:03:03.535 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-8]
+			c.i.a.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-20 12:03:03.535 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-8]
+			c.i.a.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-20 12:03:19.871  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Ha iniciado sesion2
+2024-09-20 12:03:19.871 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Debugging log
+2024-09-20 12:03:19.871  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Info log
+2024-09-20 12:03:19.871  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Hey, This is a warning!
+2024-09-20 12:03:19.871 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-20 12:03:19.871 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-20 12:03:44.286  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Starting S003TiendaRopaApplication using Java 21.0.3 with PID 9780 (C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa\target\classes started by HTML in C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa)
+2024-09-20 12:03:44.291 DEBUG DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-20 12:03:44.292  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-09-20 12:03:47.536  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Started S003TiendaRopaApplication in 3.514 seconds (process running for 4.442)
+2024-09-20 12:03:49.391 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Debugging log
+2024-09-20 12:03:49.392  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Info log
+2024-09-20 12:03:49.392  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Hey, This is a warning!
+2024-09-20 12:03:49.392 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-20 12:03:49.392 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-20 12:03:54.489  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-8]
+			c.i.a.AdvancedLogger                     : Ha iniciado sesion2
+2024-09-20 12:03:54.489 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-8]
+			c.i.a.AdvancedLogger                     : Debugging log
+2024-09-20 12:03:54.489  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-8]
+			c.i.a.AdvancedLogger                     : Info log
+2024-09-20 12:03:54.489  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-8]
+			c.i.a.AdvancedLogger                     : Hey, This is a warning!
+2024-09-20 12:03:54.489 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-8]
+			c.i.a.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-20 12:03:54.489 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-8]
+			c.i.a.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-20 12:10:51.734  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Starting S003TiendaRopaApplication using Java 21.0.3 with PID 9780 (C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa\target\classes started by HTML in C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa)
+2024-09-20 12:10:51.734 DEBUG DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-20 12:10:51.734  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-09-20 12:10:52.343  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Started S003TiendaRopaApplication in 0.657 seconds (process running for 429.248)
+2024-09-20 12:12:33.284  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Starting S003TiendaRopaApplication using Java 21.0.3 with PID 9780 (C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa\target\classes started by HTML in C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa)
+2024-09-20 12:12:33.284 DEBUG DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-20 12:12:33.285  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-09-20 12:12:33.832  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Started S003TiendaRopaApplication in 0.583 seconds (process running for 530.732)
+2024-09-20 12:12:44.550  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Starting S003TiendaRopaApplication using Java 21.0.3 with PID 9780 (C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa\target\classes started by HTML in C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa)
+2024-09-20 12:12:44.551 DEBUG DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-20 12:12:44.551  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-09-20 12:12:45.057  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Started S003TiendaRopaApplication in 0.54 seconds (process running for 541.956)
+2024-09-20 12:13:11.309  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Starting S003TiendaRopaApplication using Java 21.0.3 with PID 5840 (C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa\target\classes started by HTML in C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa)
+2024-09-20 12:13:11.314 DEBUG DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-20 12:13:11.315  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-09-20 12:13:14.589  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Started S003TiendaRopaApplication in 3.535 seconds (process running for 4.387)
+2024-09-20 12:14:38.368  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Starting S003TiendaRopaApplication using Java 21.0.3 with PID 5840 (C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa\target\classes started by HTML in C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa)
+2024-09-20 12:14:38.368 DEBUG DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-20 12:14:38.368  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-09-20 12:14:38.996  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Started S003TiendaRopaApplication in 0.688 seconds (process running for 88.789)
+2024-09-20 12:14:41.761  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Starting S003TiendaRopaApplication using Java 21.0.3 with PID 144 (C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa\target\classes started by HTML in C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa)
+2024-09-20 12:14:41.767 DEBUG DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-20 12:14:41.767  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-09-20 12:14:45.068  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Started S003TiendaRopaApplication in 3.565 seconds (process running for 4.429)
+2024-09-20 12:15:50.450  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Starting S003TiendaRopaApplication using Java 21.0.3 with PID 144 (C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa\target\classes started by HTML in C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa)
+2024-09-20 12:15:50.450 DEBUG DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-20 12:15:50.450  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-09-20 12:15:51.052  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Started S003TiendaRopaApplication in 0.651 seconds (process running for 70.409)
+2024-09-20 12:18:45.852  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Starting S003TiendaRopaApplication using Java 21.0.3 with PID 144 (C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa\target\classes started by HTML in C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa)
+2024-09-20 12:18:45.852 DEBUG DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-20 12:18:45.852  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-09-20 12:18:46.414  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Started S003TiendaRopaApplication in 0.598 seconds (process running for 245.767)
+2024-09-20 12:19:53.550  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Starting S003TiendaRopaApplication using Java 21.0.3 with PID 144 (C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa\target\classes started by HTML in C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa)
+2024-09-20 12:19:53.551 DEBUG DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-20 12:19:53.551  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-09-20 12:19:54.013  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Started S003TiendaRopaApplication in 0.496 seconds (process running for 313.365)
+2024-09-20 12:21:55.035  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Starting S003TiendaRopaApplication using Java 21.0.3 with PID 3144 (C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa\target\classes started by HTML in C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa)
+2024-09-20 12:21:55.041 DEBUG DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-20 12:21:55.041  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-09-20 12:21:58.199  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Started S003TiendaRopaApplication in 3.428 seconds (process running for 4.354)
+2024-09-20 12:22:00.452 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Debugging log
+2024-09-20 12:22:00.452  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Info log
+2024-09-20 12:22:00.452  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Hey, This is a warning!
+2024-09-20 12:22:00.452 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-20 12:22:00.452 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-20 12:22:32.719 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-4]
+			c.i.a.AdvancedLogger                     : Debugging log
+2024-09-20 12:22:32.719  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-4]
+			c.i.a.AdvancedLogger                     : Info log
+2024-09-20 12:22:32.719  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-4]
+			c.i.a.AdvancedLogger                     : Hey, This is a warning!
+2024-09-20 12:22:32.719 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-4]
+			c.i.a.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-20 12:22:32.719 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-4]
+			c.i.a.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-20 12:22:39.890  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Ha iniciado sesion2
+2024-09-20 12:22:39.890 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Debugging log
+2024-09-20 12:22:39.890  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Info log
+2024-09-20 12:22:39.890  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Hey, This is a warning!
+2024-09-20 12:22:39.890 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-20 12:22:39.890 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-20 12:22:47.942  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-4]
+			c.i.a.AdvancedLogger                     : Ha iniciado sesion2
+2024-09-20 12:22:47.942 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-4]
+			c.i.a.AdvancedLogger                     : Debugging log
+2024-09-20 12:22:47.942  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-4]
+			c.i.a.AdvancedLogger                     : Info log
+2024-09-20 12:22:47.943  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-4]
+			c.i.a.AdvancedLogger                     : Hey, This is a warning!
+2024-09-20 12:22:47.943 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-4]
+			c.i.a.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-20 12:22:47.943 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-4]
+			c.i.a.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-20 12:26:45.844  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Starting S003TiendaRopaApplication using Java 21.0.3 with PID 6200 (C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa\target\classes started by HTML in C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa)
+2024-09-20 12:26:45.850 DEBUG DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-20 12:26:45.850  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-09-20 12:26:48.990  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Started S003TiendaRopaApplication in 3.404 seconds (process running for 4.257)
+2024-09-20 12:26:59.417 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Debugging log
+2024-09-20 12:26:59.418  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Info log
+2024-09-20 12:26:59.418  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Hey, This is a warning!
+2024-09-20 12:26:59.418 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-20 12:26:59.418 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-20 12:27:11.208  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-9]
+			c.i.a.AdvancedLogger                     : Ha iniciado sesion2
+2024-09-20 12:27:11.208 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-9]
+			c.i.a.AdvancedLogger                     : Debugging log
+2024-09-20 12:27:11.208  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-9]
+			c.i.a.AdvancedLogger                     : Info log
+2024-09-20 12:27:11.208  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-9]
+			c.i.a.AdvancedLogger                     : Hey, This is a warning!
+2024-09-20 12:27:11.208 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-9]
+			c.i.a.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-20 12:27:11.208 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-9]
+			c.i.a.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-20 12:27:50.325  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-2]
+			c.i.a.AdvancedLogger                     : Ha iniciado sesion2
+2024-09-20 12:27:50.325 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-2]
+			c.i.a.AdvancedLogger                     : Debugging log
+2024-09-20 12:27:50.325  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-2]
+			c.i.a.AdvancedLogger                     : Info log
+2024-09-20 12:27:50.325  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-2]
+			c.i.a.AdvancedLogger                     : Hey, This is a warning!
+2024-09-20 12:27:50.325 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-2]
+			c.i.a.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-20 12:27:50.325 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-2]
+			c.i.a.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-20 12:28:39.041  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-6]
+			c.i.a.AdvancedLogger                     : Ha iniciado sesion2
+2024-09-20 12:28:39.041 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-6]
+			c.i.a.AdvancedLogger                     : Debugging log
+2024-09-20 12:28:39.041  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-6]
+			c.i.a.AdvancedLogger                     : Info log
+2024-09-20 12:28:39.041  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-6]
+			c.i.a.AdvancedLogger                     : Hey, This is a warning!
+2024-09-20 12:28:39.041 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-6]
+			c.i.a.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-20 12:28:39.041 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-6]
+			c.i.a.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-20 12:31:24.599  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Starting S003TiendaRopaApplication using Java 21.0.3 with PID 10980 (C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa\target\classes started by HTML in C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa)
+2024-09-20 12:31:24.605 DEBUG DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-20 12:31:24.605  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-09-20 12:31:27.762  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Started S003TiendaRopaApplication in 3.418 seconds (process running for 4.314)
+2024-09-20 12:31:30.109 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Debugging log
+2024-09-20 12:31:30.109  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Info log
+2024-09-20 12:31:30.109  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Hey, This is a warning!
+2024-09-20 12:31:30.109 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-20 12:31:30.109 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-20 12:31:44.150  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-8]
+			c.i.a.AdvancedLogger                     : Ha iniciado sesion2
+2024-09-20 12:31:44.150 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-8]
+			c.i.a.AdvancedLogger                     : Debugging log
+2024-09-20 12:31:44.150  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-8]
+			c.i.a.AdvancedLogger                     : Info log
+2024-09-20 12:31:44.150  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-8]
+			c.i.a.AdvancedLogger                     : Hey, This is a warning!
+2024-09-20 12:31:44.151 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-8]
+			c.i.a.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-20 12:31:44.151 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-8]
+			c.i.a.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-20 12:31:47.172  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Ha iniciado sesion2
+2024-09-20 12:31:47.172 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Debugging log
+2024-09-20 12:31:47.172  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Info log
+2024-09-20 12:31:47.172  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Hey, This is a warning!
+2024-09-20 12:31:47.172 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-20 12:31:47.172 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-20 12:49:10.421  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Starting S003TiendaRopaApplication using Java 21.0.3 with PID 10980 (C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa\target\classes started by HTML in C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa)
+2024-09-20 12:49:10.421 DEBUG DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-20 12:49:10.421  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-09-20 12:49:11.030  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Started S003TiendaRopaApplication in 0.659 seconds (process running for 1067.57)
+2024-09-20 12:50:49.336  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Starting S003TiendaRopaApplication using Java 21.0.3 with PID 10980 (C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa\target\classes started by HTML in C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa)
+2024-09-20 12:50:49.336 DEBUG DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-20 12:50:49.336  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-09-20 12:51:21.972  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Starting S003TiendaRopaApplication using Java 21.0.3 with PID 10980 (C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa\target\classes started by HTML in C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa)
+2024-09-20 12:51:21.973 DEBUG DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-20 12:51:21.973  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-09-20 12:55:11.677  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Starting S003TiendaRopaApplication using Java 21.0.3 with PID 10980 (C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa\target\classes started by HTML in C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa)
+2024-09-20 12:55:11.677 DEBUG DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-20 12:55:11.677  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-09-20 12:55:52.720  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Starting S003TiendaRopaApplication using Java 21.0.3 with PID 10980 (C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa\target\classes started by HTML in C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa)
+2024-09-20 12:55:52.720 DEBUG DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-20 12:55:52.721  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-09-20 12:55:55.688  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Starting S003TiendaRopaApplication using Java 21.0.3 with PID 10980 (C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa\target\classes started by HTML in C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa)
+2024-09-20 12:55:55.689 DEBUG DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-20 12:55:55.689  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-09-20 12:57:14.614  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Starting S003TiendaRopaApplication using Java 21.0.3 with PID 10980 (C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa\target\classes started by HTML in C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa)
+2024-09-20 12:57:14.614 DEBUG DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-20 12:57:14.614  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-09-20 12:57:15.129  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Started S003TiendaRopaApplication in 0.547 seconds (process running for 1551.656)
+2024-09-20 12:57:21.324 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Debugging log
+2024-09-20 12:57:21.324  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Info log
+2024-09-20 12:57:21.324  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Hey, This is a warning!
+2024-09-20 12:57:21.324 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-20 12:57:21.324 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-20 12:58:47.757  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Starting S003TiendaRopaApplication using Java 21.0.3 with PID 10980 (C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa\target\classes started by HTML in C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa)
+2024-09-20 12:58:47.758 DEBUG DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-20 12:58:47.758  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-09-20 12:58:48.263  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Started S003TiendaRopaApplication in 0.545 seconds (process running for 1644.788)
+2024-09-20 12:59:13.721  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Starting S003TiendaRopaApplication using Java 21.0.3 with PID 8292 (C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa\target\classes started by HTML in C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa)
+2024-09-20 12:59:13.727 DEBUG DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-20 12:59:13.728  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-09-20 12:59:16.887  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Started S003TiendaRopaApplication in 3.427 seconds (process running for 4.308)
+2024-09-20 12:59:18.231 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Debugging log
+2024-09-20 12:59:18.232  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Info log
+2024-09-20 12:59:18.232  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Hey, This is a warning!
+2024-09-20 12:59:18.232 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-20 12:59:18.232 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-20 13:00:02.620  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Starting S003TiendaRopaApplication using Java 21.0.3 with PID 8292 (C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa\target\classes started by HTML in C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa)
+2024-09-20 13:00:02.620 DEBUG DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-20 13:00:02.621  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-09-20 13:00:03.162  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Started S003TiendaRopaApplication in 0.589 seconds (process running for 50.582)
+2024-09-20 13:02:28.143  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Starting S003TiendaRopaApplication using Java 21.0.3 with PID 988 (C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa\target\classes started by HTML in C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa)
+2024-09-20 13:02:28.148 DEBUG DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-20 13:02:28.149  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-09-20 13:02:31.283  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Started S003TiendaRopaApplication in 3.397 seconds (process running for 4.257)
+2024-09-20 13:02:33.124 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Debugging log
+2024-09-20 13:02:33.124  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Info log
+2024-09-20 13:02:33.124  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Hey, This is a warning!
+2024-09-20 13:02:33.124 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-20 13:02:33.124 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-20 13:11:49.407 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-8]
+			c.i.a.AdvancedLogger                     : Debugging log
+2024-09-20 13:11:49.407  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-8]
+			c.i.a.AdvancedLogger                     : Info log
+2024-09-20 13:11:49.407  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-8]
+			c.i.a.AdvancedLogger                     : Hey, This is a warning!
+2024-09-20 13:11:49.407 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-8]
+			c.i.a.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-20 13:11:49.407 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-8]
+			c.i.a.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-20 13:11:56.854  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-6]
+			c.i.a.AdvancedLogger                     : Ha iniciado sesion2
+2024-09-20 13:11:56.854 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-6]
+			c.i.a.AdvancedLogger                     : Debugging log
+2024-09-20 13:11:56.854  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-6]
+			c.i.a.AdvancedLogger                     : Info log
+2024-09-20 13:11:56.854  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-6]
+			c.i.a.AdvancedLogger                     : Hey, This is a warning!
+2024-09-20 13:11:56.854 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-6]
+			c.i.a.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-20 13:11:56.854 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-6]
+			c.i.a.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-20 13:13:32.863  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Starting S003TiendaRopaApplication using Java 21.0.3 with PID 988 (C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa\target\classes started by HTML in C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa)
+2024-09-20 13:13:32.863 DEBUG DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-20 13:13:32.864  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-09-20 13:13:33.522  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Started S003TiendaRopaApplication in 0.706 seconds (process running for 666.489)
+2024-09-20 13:16:33.139  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Starting S003TiendaRopaApplication using Java 21.0.3 with PID 988 (C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa\target\classes started by HTML in C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa)
+2024-09-20 13:16:33.140 DEBUG DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-20 13:16:33.140  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-09-20 13:16:33.668  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Started S003TiendaRopaApplication in 0.574 seconds (process running for 846.635)
+2024-09-20 13:16:41.915  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-2]
+			c.i.a.AdvancedLogger                     : Ha iniciado sesion2
+2024-09-20 13:16:41.916 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-2]
+			c.i.a.AdvancedLogger                     : Debugging log
+2024-09-20 13:16:41.916  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-2]
+			c.i.a.AdvancedLogger                     : Info log
+2024-09-20 13:16:41.916  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-2]
+			c.i.a.AdvancedLogger                     : Hey, This is a warning!
+2024-09-20 13:16:41.916 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-2]
+			c.i.a.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-20 13:16:41.916 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-2]
+			c.i.a.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-20 13:17:42.993  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-7]
+			c.i.a.AdvancedLogger                     : Ha iniciado sesion2
+2024-09-20 13:17:42.993 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-7]
+			c.i.a.AdvancedLogger                     : Debugging log
+2024-09-20 13:17:42.993  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-7]
+			c.i.a.AdvancedLogger                     : Info log
+2024-09-20 13:17:42.994  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-7]
+			c.i.a.AdvancedLogger                     : Hey, This is a warning!
+2024-09-20 13:17:42.994 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-7]
+			c.i.a.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-20 13:17:42.994 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-7]
+			c.i.a.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-20 13:22:26.966  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-2]
+			c.i.a.AdvancedLogger                     : Ha iniciado sesion2
+2024-09-20 13:22:26.966 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-2]
+			c.i.a.AdvancedLogger                     : Debugging log
+2024-09-20 13:22:26.966  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-2]
+			c.i.a.AdvancedLogger                     : Info log
+2024-09-20 13:22:26.966  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-2]
+			c.i.a.AdvancedLogger                     : Hey, This is a warning!
+2024-09-20 13:22:26.966 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-2]
+			c.i.a.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-20 13:22:26.966 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-2]
+			c.i.a.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-20 13:25:17.298  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Starting S003TiendaRopaApplication using Java 21.0.3 with PID 10812 (C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa\target\classes started by HTML in C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa)
+2024-09-20 13:25:17.302 DEBUG DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-20 13:25:17.303  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-09-20 13:25:20.445  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Started S003TiendaRopaApplication in 3.408 seconds (process running for 4.298)
+2024-09-20 13:25:27.405 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Debugging log
+2024-09-20 13:25:27.405  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Info log
+2024-09-20 13:25:27.405  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Hey, This is a warning!
+2024-09-20 13:25:27.405 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-20 13:25:27.405 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-20 13:25:37.161  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-8]
+			c.i.a.AdvancedLogger                     : Ha iniciado sesion2
+2024-09-20 13:25:37.161 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-8]
+			c.i.a.AdvancedLogger                     : Debugging log
+2024-09-20 13:25:37.161  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-8]
+			c.i.a.AdvancedLogger                     : Info log
+2024-09-20 13:25:37.161  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-8]
+			c.i.a.AdvancedLogger                     : Hey, This is a warning!
+2024-09-20 13:25:37.161 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-8]
+			c.i.a.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-20 13:25:37.162 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-8]
+			c.i.a.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-20 13:27:22.942  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Starting S003TiendaRopaApplication using Java 21.0.3 with PID 4920 (C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa\target\classes started by HTML in C:\Users\HTML\git\tiendaRopa\S003_TiendaRopa)
+2024-09-20 13:27:22.947 DEBUG DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-09-20 13:27:22.948  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-09-20 13:27:26.362  INFO DESKTOP-BK63CH3 --- [  restartedMain]
+			c.i.S003TiendaRopaApplication            : Started S003TiendaRopaApplication in 3.676 seconds (process running for 4.525)
+2024-09-20 13:27:30.980 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Debugging log
+2024-09-20 13:27:30.980  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Info log
+2024-09-20 13:27:30.980  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Hey, This is a warning!
+2024-09-20 13:27:30.980 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-20 13:27:30.980 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-20 13:28:03.440  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-8]
+			c.i.a.AdvancedLogger                     : Ha iniciado sesion2
+2024-09-20 13:28:03.440 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-8]
+			c.i.a.AdvancedLogger                     : Debugging log
+2024-09-20 13:28:03.440  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-8]
+			c.i.a.AdvancedLogger                     : Info log
+2024-09-20 13:28:03.440  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-8]
+			c.i.a.AdvancedLogger                     : Hey, This is a warning!
+2024-09-20 13:28:03.440 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-8]
+			c.i.a.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-20 13:28:03.440 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-8]
+			c.i.a.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-20 13:28:22.730  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Ha iniciado sesion2
+2024-09-20 13:28:22.730 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Debugging log
+2024-09-20 13:28:22.730  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Info log
+2024-09-20 13:28:22.730  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Hey, This is a warning!
+2024-09-20 13:28:22.730 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-20 13:28:22.730 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-1]
+			c.i.a.AdvancedLogger                     : Damn! Fatal error. Please fix me.
+2024-09-20 13:28:49.412  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-5]
+			c.i.a.AdvancedLogger                     : Ha iniciado sesion2
+2024-09-20 13:28:49.412 DEBUG DESKTOP-BK63CH3 --- [nio-8080-exec-5]
+			c.i.a.AdvancedLogger                     : Debugging log
+2024-09-20 13:28:49.412  INFO DESKTOP-BK63CH3 --- [nio-8080-exec-5]
+			c.i.a.AdvancedLogger                     : Info log
+2024-09-20 13:28:49.412  WARN DESKTOP-BK63CH3 --- [nio-8080-exec-5]
+			c.i.a.AdvancedLogger                     : Hey, This is a warning!
+2024-09-20 13:28:49.412 ERROR DESKTOP-BK63CH3 --- [nio-8080-exec-5]
+			c.i.a.AdvancedLogger                     : Oops! We have an Error. OK
+2024-09-20 13:28:49.412 FATAL DESKTOP-BK63CH3 --- [nio-8080-exec-5]
+			c.i.a.AdvancedLogger                     : Damn! Fatal error. Please fix me.

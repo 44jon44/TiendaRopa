@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import com.ipartek.auxiliares.Hashing;
 import com.ipartek.model.Privilegio;
 import com.ipartek.model.Producto;
 import com.ipartek.model.Usuario;
@@ -21,7 +22,6 @@ import com.ipartek.repository.CategoriaRepository;
 import com.ipartek.repository.GeneroRepository;
 import com.ipartek.repository.ProductoRepository;
 import com.ipartek.repository.UsuarioRepository;
-import com.ipartek.service.Hashing;
 
 import jakarta.servlet.http.HttpSession;
 

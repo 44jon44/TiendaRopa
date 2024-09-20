@@ -24,16 +24,16 @@ public class InicializarDatos {
 	@Transactional
 	public void inicializarDatos() {
 		//lista de generos
-		generoRepo.save(new Genero(1, "Hombre"));
-		generoRepo.save(new Genero(2, "Mujer"));
-		generoRepo.save(new Genero(3, "Infantil"));
-		
-		//equipos en las aulas
-		categoriaRepo.save(new Categoria(1, "Pantalones"));
-		categoriaRepo.save(new Categoria(2, "Faldas"));
-		categoriaRepo.save(new Categoria(3, "Camisetas"));
-		categoriaRepo.save(new Categoria(4, "Camisas"));
-		
+//		generoRepo.save(new Genero(1, "Hombre"));
+//		generoRepo.save(new Genero(2, "Mujer"));
+//		generoRepo.save(new Genero(3, "Infantil"));
+//		
+//		//equipos en las aulas
+//		categoriaRepo.save(new Categoria(1, "Pantalones"));
+//		categoriaRepo.save(new Categoria(2, "Faldas"));
+//		categoriaRepo.save(new Categoria(3, "Camisetas"));
+//		categoriaRepo.save(new Categoria(4, "Camisas"));
+//		
 		
 		
 		
