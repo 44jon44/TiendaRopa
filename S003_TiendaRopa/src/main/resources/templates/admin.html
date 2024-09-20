@@ -26,6 +26,7 @@
 							<th>Foto</th>
 							<th>Genero</th>
 							<th>Categoria</th>
+							<th>Talla</th>
 							<th>Opciones</th>
 						</tr>
 					</thead>
@@ -40,6 +41,7 @@
 							</td>
 							<td th:text="${elem.genero.genero}">Genero</td>
 							<td th:text="${elem.categoria.nombre}">Categoria</td>
+							<td th:text="${elem.talla.nombre}">Talla</td>
 							<td>
 								<a th:href="@{/adminBorrarProducto(id=${elem.id})}">Borrar</a>
 								<a th:href="@{/adminFrmModificarProducto(id=${elem.id})}">Modificar</a>
@@ -79,6 +81,12 @@
 						</option>
 					</select>
 
+					<label>Talla: </label>
+					<select th:field="*{talla.id}">
+						<option th:each="elem :${atr_lista_tallas}" th:text="${elem.nombre}" th:value="${elem.id}">
+						</option>
+					</select>
+
 					<br />
 					<input type="submit" value="Agregar producto" />
 
@@ -103,10 +111,14 @@
 						<option th:each="elem :${atr_lista_categorias}" th:text="${elem.nombre}" th:value="${elem.id}">
 						</option>
 					</select>
-
+					<label>Talla: </label>
+					<select th:field="*{talla.id}">
+						<option th:each="elem :${atr_lista_tallas}" th:text="${elem.nombre}" th:value="${elem.id}">
+						</option>
+					</select>
 					<br />
 					<input type="submit" value="Buscar producto" />
-					<br>
+					<br/>
 				</form>
 				<h2>Generar copia de Seguridad</h2>
 				<form action="/copiaSeguridadProductos" method="POST">
@@ -118,6 +130,9 @@
 				<form action="/copiaSeguridadGeneros" method="POST">
 					<input type="submit" value="Generar CSV Genero" />
 				</form>
+				<form action="/copiaSeguridadTallas" method="POST">
+					<input type="submit" value="Generar CSV Tallas" />
+				</form>
 				<h2>Restaurar copia de Seguridad</h2>
 				<form action="/restaurarProductos" method="POST">
 					<input type="submit" value="Restaurar CSV Productos" />
@@ -127,6 +142,9 @@
 				</form>
 				<form action="/restaurarGeneros" method="POST">
 					<input type="submit" value="Restaurar CSV Genero" />
+				</form>
+				<form action="/restaurarTallas" method="POST">
+					<input type="submit" value="Restaurar CSV Talla" />
 				</form>
 			</section>
 		</div>

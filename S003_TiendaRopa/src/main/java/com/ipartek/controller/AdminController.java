@@ -26,6 +26,7 @@ import com.ipartek.model.Producto;
 import com.ipartek.repository.CategoriaRepository;
 import com.ipartek.repository.GeneroRepository;
 import com.ipartek.repository.ProductoRepository;
+import com.ipartek.repository.TallaRepository;
 
 import jakarta.servlet.http.HttpSession;
 
@@ -34,6 +35,8 @@ public class AdminController {
 
 	@Autowired
 	private ProductoRepository productosRepo;
+	@Autowired
+	private TallaRepository tallasRepo;
 	@Autowired
 	private CategoriaRepository categoriasRepo;
 	@Autowired
@@ -47,6 +50,7 @@ public class AdminController {
 			model.addAttribute("atr_lista_productos", productosRepo.findAll());
 			model.addAttribute("atr_lista_categorias", categoriasRepo.findAll());
 			model.addAttribute("atr_lista_generos", generosRepo.findAll());
+			model.addAttribute("atr_lista_tallas", tallasRepo.findAll());
 
 			model.addAttribute("obj_producto", new Producto());
 			model.addAttribute("obj_categoria", new Categoria());
@@ -82,6 +86,8 @@ public class AdminController {
 			@RequestParam(value = "id", required = false) Integer id) {
 		model.addAttribute("atr_lista_categorias", categoriasRepo.findAll());
 		model.addAttribute("atr_lista_generos", generosRepo.findAll());
+		model.addAttribute("atr_lista_tallas", tallasRepo.findAll());
+
 
 		if (id != null) {
 			prod = productosRepo.findById(id).orElse(new Producto());
@@ -154,9 +160,11 @@ public class AdminController {
 
 		List<Producto> listaProd = productosRepo.buscarProducto(producto.getNombre(), producto.getCategoria().getId(),
 				producto.getGenero().getId());
+		
 		model.addAttribute("atr_lista_productos", listaProd);
 		model.addAttribute("atr_lista_categorias", categoriasRepo.findAll());
 		model.addAttribute("atr_lista_generos", generosRepo.findAll());
+		model.addAttribute("atr_lista_tallas", tallasRepo.findAll());
 
 		session.setAttribute("modificacion", "buscarProducto");
 		return "admin";

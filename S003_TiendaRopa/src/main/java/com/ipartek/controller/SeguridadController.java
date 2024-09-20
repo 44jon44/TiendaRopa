@@ -17,10 +17,11 @@ import com.ipartek.auxiliares.CSVWriter;
 import com.ipartek.model.Categoria;
 import com.ipartek.model.Genero;
 import com.ipartek.model.Producto;
+import com.ipartek.model.Talla;
 import com.ipartek.repository.CategoriaRepository;
 import com.ipartek.repository.GeneroRepository;
 import com.ipartek.repository.ProductoRepository;
-import com.ipartek.service.DatabaseService;
+import com.ipartek.repository.TallaRepository;
 
 import jakarta.servlet.http.HttpSession;
 
@@ -32,17 +33,10 @@ public class SeguridadController {
 	private CategoriaRepository categoriasRepo;
 	@Autowired
 	private GeneroRepository generosRepo;
+	@Autowired
+	private TallaRepository tallasRepo;
 	private static final Logger logger = LogManager.getLogger(AdvancedLogger.class);
-	
-	private DatabaseService databaseService = null;
 
-    public SeguridadController(DatabaseService databaseService) {
-        this.databaseService = databaseService;
-    }
-   
-
-
-   
 
 	@RequestMapping("/copiaSeguridadProductos")
 	public String copiaSeguriadProductos(Model model, @ModelAttribute(value = "obj_producto") Producto producto,
@@ -81,6 +75,19 @@ public class SeguridadController {
 
 		return "redirect:/admin";
 	}
+	
+	@RequestMapping("/copiaSeguridadTallas")
+	public String copiaSeguriadTallas(Model model, @ModelAttribute(value = "obj_talla") Talla talla,
+
+			HttpSession session) {
+		model.addAttribute("obj_talla", new Talla());
+
+		List<Object> listaTalla = new ArrayList<>(tallasRepo.findAll());
+		session.setAttribute("modificacion", "copiaSeguridadTallas");
+		CSVWriter.escribirCSV("src/main/resources/copiasSeguridad/tallas.csv", listaTalla, session);
+
+		return "redirect:/admin";
+	}
 
 	@RequestMapping("/restaurarProductos")
 	public String restaurarProductos(Model model, @ModelAttribute(value = "obj_producto") Producto producto,
@@ -105,21 +112,16 @@ public class SeguridadController {
 		model.addAttribute("obj_categoria", new Categoria());
 		String categoria="categorias";
 		 
-		databaseService.eliminarTabla(categoria);
+
 
 		session.setAttribute("modificacion", "restaurarCategorias");
 		List<Object> listaCat = CSVReader.leerCSV("src/main/resources/copiasSeguridad/categorias.csv",
 				Categoria.class.getName());
 
 		for (Object object : listaCat) {
-System.out.println("*****************************************");
-System.out.println(((Categoria) object).getId());
-System.out.println(((Categoria) object).getNombre());
-System.out.println("*****************************************");
-
 			categoriasRepo.save((Categoria) object);
 		}
-		categoriasRepo.save(new Categoria(3,"Jerseys"));
+		
 		return "redirect:/admin";
 	}
 
@@ -134,6 +136,21 @@ System.out.println("*****************************************");
 		for (Object object : listaGen) {
 			generosRepo.save((Genero) object);
 			
+		}
+		
+		return "redirect:/admin";
+	}
+	@RequestMapping("/restaurarTallas")
+	public String restaurarTallas(Model model, @ModelAttribute(value = "obj_talla") Talla talla,
+			HttpSession session) {
+		model.addAttribute("obj_talla", new Talla());
+
+		session.setAttribute("modificacion", "restaurarTallas");
+		List<Object> listaTalla = CSVReader.leerCSV("src/main/resources/copiasSeguridad/tallas.csv",
+				Talla.class.getName());
+
+		for (Object object : listaTalla) {
+			tallasRepo.save((Talla) object);
 		}
 		
 		return "redirect:/admin";

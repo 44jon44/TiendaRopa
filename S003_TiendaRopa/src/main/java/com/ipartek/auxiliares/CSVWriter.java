@@ -8,6 +8,7 @@ import java.util.List;
 import com.ipartek.model.Categoria;
 import com.ipartek.model.Genero;
 import com.ipartek.model.Producto;
+import com.ipartek.model.Talla;
 
 import jakarta.servlet.http.HttpSession;
 
@@ -39,6 +40,14 @@ public class CSVWriter {
 				for (Object gen : objetos) {					
 					Genero genero = (Genero) gen;
 					writer.write(genero.toCSV() + System.lineSeparator());
+				}
+			}
+			if (session.getAttribute("modificacion").equals("copiaSeguridadTallas")){
+				//Cabecera del csv
+				writer.write("id,nombre" + "\n");
+				for (Object obj : objetos) {					
+					Talla talla = (Talla) obj;
+					writer.write(talla.toCSV() + System.lineSeparator());
 				}
 			}
 		} catch (IOException e) {

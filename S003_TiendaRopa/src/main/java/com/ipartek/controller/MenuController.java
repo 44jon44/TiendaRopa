@@ -6,6 +6,8 @@ import java.util.stream.Collectors;
 
 import javax.lang.model.element.Element;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -14,6 +16,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import com.ipartek.auxiliares.AdvancedLogger;
 import com.ipartek.auxiliares.Hashing;
 import com.ipartek.model.Privilegio;
 import com.ipartek.model.Producto;
@@ -21,12 +24,14 @@ import com.ipartek.model.Usuario;
 import com.ipartek.repository.CategoriaRepository;
 import com.ipartek.repository.GeneroRepository;
 import com.ipartek.repository.ProductoRepository;
+import com.ipartek.repository.TallaRepository;
 import com.ipartek.repository.UsuarioRepository;
 
 import jakarta.servlet.http.HttpSession;
 
 @Controller
 public class MenuController {
+	private static final Logger logger = LogManager.getLogger(AdvancedLogger.class);
 
 	@Autowired
 	private ProductoRepository productosRepo;
@@ -36,6 +41,9 @@ public class MenuController {
 
 	@Autowired
 	private GeneroRepository generosRepo;
+	
+	@Autowired
+	private TallaRepository tallasRepo;
 
 	@Autowired
 	private UsuarioRepository usuariosRepo;
@@ -48,7 +56,9 @@ public class MenuController {
 
 		model.addAttribute("atr_lista_camisetas", listaCamisetas);
 		model.addAttribute("atr_lista_categorias", categoriasRepo.findAll());
-		return "index";
+		
+		
+		return "camisetas";
 
 	}
 
@@ -86,35 +96,32 @@ public class MenuController {
 	}
 
 	@RequestMapping("/formLogin")
-	public String formLogin(Model model) {
-
+	public String formLogin(Model model, HttpSession session) {
+		if (session.getAttribute("rol").equals(Privilegio.ADMIN)) {
+			
+            return "redirect:/admin";
+		}
 		model.addAttribute("obj_usuario", new Usuario());
 
 		return "login";
 	}
 
 	@RequestMapping("/login")
-	public String login(Model model, @ModelAttribute(value = "obj_usuario") Usuario user, HttpSession session) {
+	public String login(Model model, @ModelAttribute(value = "obj_usuario") Usuario user, HttpSession session) {	
 	    // Ensure session attribute exists or set default value for this user
 	    Integer intentos = (Integer) session.getAttribute("Intentos_" + user.getNombre());
 	    if (intentos == null) {
 	        intentos = 0;
 	    }
-	    
-	    System.out.println("El nombre que llega es " + user.getNombre());
-	    System.out.println("La Contraseña que llega es " + user.getContraseña());
-        String contraseñaHashed=Hashing.hash(user.getContraseña());
-        System.out.println(contraseñaHashed);
+	            
+        logger.info("Se ha intentado iniciar sesion con el usuario: "+user.getNombre()+" con la contraseña: "+user.getContraseña());
+        
 	    // Fetch all users
 	    List<Usuario> usuarios = usuariosRepo.findAll();
 	    
 	    for (Usuario elem : usuarios) {
 	        // Check if username and password match
-	        if (elem.getNombre().equals(user.getNombre()) && elem.getContraseña().equals(contraseñaHashed)) {
-	            model.addAttribute("atr_lista_categorias", categoriasRepo.findAll());
-	            model.addAttribute("atr_lista_productos", productosRepo.findAll());
-	            model.addAttribute("atr_lista_generos", generosRepo.findAll());
-	            model.addAttribute("obj_producto", new Producto());
+	        if (elem.getNombre().equals(user.getNombre()) && elem.getContraseña().equals(Hashing.hash(user.getContraseña()))) {
 
 	            // Reset intentos after a successful login
 	            session.setAttribute("Intentos_" + user.getNombre(), 0);
@@ -123,17 +130,12 @@ public class MenuController {
 
 	            // Redirect to admin if the user is an admin
 	            if (elem.getPriv().equals(Privilegio.ADMIN)) {
-	                return "admin";
+	            	return "redirect:/admin";
 	            }
 	            if(elem.getPriv().equals(Privilegio.USUARIO)) {
 	            // Redirect to index if user is not admin (default behavior)
-	            List<Producto> listaRopa = productosRepo.findAll();
-	            List<Producto> listaCamisetas = listaRopa.stream()
-	                    .filter(prod -> prod.getCategoria().getId() == 1)
-	                    .collect(Collectors.toList());
 
-	            model.addAttribute("atr_lista_camisetas", listaCamisetas);
-	            return "index";
+	            return "redirect:/index";
 	            }else if (elem.getPriv().equals(Privilegio.BLOQUEADO)) {
 	    	        return "redirect:https://www.google.es/";
 

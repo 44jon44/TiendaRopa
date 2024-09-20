@@ -9,10 +9,12 @@ import java.util.List;
 import com.ipartek.model.Categoria;
 import com.ipartek.model.Genero;
 import com.ipartek.model.Producto;
+import com.ipartek.model.Talla;
 
 public class CSVReader {
 
 	public static List<Object> leerCSV(String archivo, String tipo) {
+		
 		List<Object> productos = new ArrayList<>();
 		List<Object> generos = new ArrayList<>();
 		List<Object> categorias = new ArrayList<>();
@@ -33,6 +35,7 @@ public class CSVReader {
 					producto.setFoto(valores[3]);
 					producto.setGenero(new Genero(Integer.parseInt(valores[5]), ""));
 					producto.setCategoria(new Categoria(Integer.parseInt(valores[4]), ""));
+					producto.setTalla(new Talla(Integer.parseInt(valores[5]), ""));
 
 					productos.add(producto);
 					
@@ -63,6 +66,20 @@ public class CSVReader {
 					cat.setNombre(valores[1]);
 
 					categorias.add(cat);
+					
+				}
+				return categorias;
+			}
+			if (tipo == Talla.class.getName()) {
+				// Leer el resto del archivo
+				while ((linea = reader.readLine()) != null) {
+					String[] valores = linea.split(",");
+
+					Talla talla = new Talla();
+					talla.setId(Integer.parseInt(valores[0]));
+					talla.setNombre(valores[1]);
+
+					categorias.add(talla);
 					
 				}
 				return categorias;

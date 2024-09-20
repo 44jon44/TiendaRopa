@@ -180,12 +180,12 @@ section {
 
 .infoContainer {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-template-rows: 1fr;
 	gap: 0px 0px;
 	grid-auto-flow: row;
 	grid-template-areas:
-		". . .";
+		". . . .";
 	border: 1px solid #ccc;
 	padding: 15px;
 	margin-bottom: 20px;
@@ -197,7 +197,8 @@ section {
 
 .categoria,
 .nombre,
-.precio {
+.precio
+.talla {
 	text-align: center;
 	margin-bottom: 5px;
 }
@@ -209,7 +210,8 @@ section {
 	text-transform: uppercase;
 }
 
-.nombre {
+.nombre
+.talla {
 	font-size: 16px;
 	color: #555;
 }

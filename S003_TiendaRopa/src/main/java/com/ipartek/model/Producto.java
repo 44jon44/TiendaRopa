@@ -12,6 +12,7 @@ import jakarta.persistence.Table;
 @Table(name = "productos")
 public class Producto {
 	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "id")
 	private int id;
 	@Column(name = "nombre")
@@ -29,7 +30,9 @@ public class Producto {
 	@JoinColumn(name = "categoria_id", nullable = false)
 	private Categoria categoria;
 	
-	
+	@ManyToOne
+	@JoinColumn(name = "talla_id", nullable = false)
+	private Talla talla;
 
 	public Producto(int id, String nombre, double precio, String foto, Genero genero, Categoria categoria) {
 		super();
@@ -89,6 +92,14 @@ public class Producto {
 	}
 	public String toCSV() {
 	    return id + "," + nombre + "," + precio + "," + foto + "," + categoria.getId() + "," + genero.getId();
+	}
+
+	public Talla getTalla() {
+		return talla;
+	}
+
+	public void setTalla(Talla talla) {
+		this.talla = talla;
 	}
 
 	
