@@ -20,8 +20,9 @@ public class CSVWriter {
 
 			if (session.getAttribute("modificacion").equals("copiaSeguridadProductos")) {
 				//Cabecera del csv
-				writer.write("id,nombre,precio,foto,categoria_id,genero_id" + "\n");
-				for (Object prod : objetos) {					
+				writer.write("id,nombre,precio,foto,visible,categoria_id,genero_id,talla_id" + "\n");
+				for (Object prod : objetos) {	
+					
 					Producto producto = (Producto) prod;
 					writer.write(producto.toCSV() + System.lineSeparator());
 				}

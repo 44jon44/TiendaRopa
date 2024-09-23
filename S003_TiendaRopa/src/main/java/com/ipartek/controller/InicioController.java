@@ -33,7 +33,8 @@ public class InicioController {
 
 
 		model.addAttribute("atr_lista_categorias", categoriasRepo.findAll());
-		model.addAttribute("atr_lista_productos", productosRepo.findAll());
+		model.addAttribute("atr_lista_productos", productosRepo.buscarTodosVisibles());
+		
 		
 		session.setAttribute("rol", Privilegio.USUARIO);
 		session.setAttribute("Intentos", 0);

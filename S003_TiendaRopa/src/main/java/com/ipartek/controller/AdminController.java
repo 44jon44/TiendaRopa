@@ -55,12 +55,7 @@ public class AdminController {
 			model.addAttribute("obj_producto", new Producto());
 			model.addAttribute("obj_categoria", new Categoria());
 			model.addAttribute("obj_genero", new Genero());
-			logger.info("Ha iniciado sesion" + session.getAttribute("usuario"));
-			logger.debug("Debugging log");
-			logger.info("Info log");
-			logger.warn("Hey, This is a warning!");
-			logger.error("Oops! We have an Error. OK");
-			logger.fatal("Damn! Fatal error. Please fix me.");
+			
 			return "admin";
 		} else {
 			return "redirect:https://www.google.es/";
@@ -159,7 +154,7 @@ public class AdminController {
 		model.addAttribute("obj_producto", new Producto());
 
 		List<Producto> listaProd = productosRepo.buscarProducto(producto.getNombre(), producto.getCategoria().getId(),
-				producto.getGenero().getId());
+				producto.getGenero().getId(),producto.getTalla().getId());
 		
 		model.addAttribute("atr_lista_productos", listaProd);
 		model.addAttribute("atr_lista_categorias", categoriasRepo.findAll());

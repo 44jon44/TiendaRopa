@@ -1,0 +1,17 @@
+id,nombre,precio,foto,visible,categoria_id,genero_id,talla_id
+1,Camiseta FCB,19.99,imagenes/camiseta1.jpg,1,1,1,1
+2,Camiseta Messi,22.5,imagenes/camiseta2.jpg,1,1,1,1
+3,Camiseta Ronaldinho,18.0,imagenes/camiseta3.jpg,1,1,1,1
+4,Camiseta Luis Suarez,24.75,imagenes/camiseta4.jpg,1,1,1,1
+5,Falda Azul,29.99,imagenes/falda1.jpg,1,2,2,2
+6,Falda Marron,34.5,imagenes/falda2.jpg,1,2,2,2
+7,Falda Vaquera,27.0,imagenes/falda3.jpg,1,2,2,2
+8,Falda Negra,31.75,imagenes/falda4.jpg,1,2,2,2
+9,Jersey Beige,39.99,imagenes/jersey1.jpg,1,3,3,3
+10,Jersey Rayas,44.5,imagenes/jersey2.jpg,1,3,3,3
+11,Jersey Claro,37.0,imagenes/jersey3.jpg,1,3,3,3
+12,Jersey Punto,42.75,imagenes/jersey4.jpg,1,3,3,3
+13,Pantalón largo Bayern,49.99,imagenes/pantalon1.jpg,1,4,4,4
+14,Pantalón corto FCB,39.99,imagenes/pantalon2.png,1,4,4,4
+15,Pantalón corto Bélgica,69.99,imagenes/pantalon3.jpg,1,4,4,4
+16,Pantalón corto Bayern,29.99,imagenes/pantalon4.jpg,1,4,4,4

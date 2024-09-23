@@ -29,16 +29,18 @@ public class CSVReader {
 					String[] valores = linea.split(",");
 
 					Producto producto = new Producto();
+					
 					producto.setId(Integer.parseInt(valores[0]));
 					producto.setNombre(valores[1]);
 					producto.setPrecio(Double.parseDouble(valores[2]));
 					producto.setFoto(valores[3]);
-					producto.setGenero(new Genero(Integer.parseInt(valores[5]), ""));
-					producto.setCategoria(new Categoria(Integer.parseInt(valores[4]), ""));
-					producto.setTalla(new Talla(Integer.parseInt(valores[5]), ""));
-
-					productos.add(producto);
+					producto.setVisible(Integer.parseInt(valores[4]));
+					producto.setCategoria(new Categoria(Integer.parseInt(valores[5]), ""));
+					producto.setGenero(new Genero(Integer.parseInt(valores[6]), ""));
 					
+					producto.setTalla(new Talla(Integer.parseInt(valores[7]),""));
+					
+					productos.add(producto);
 				}
 				return productos;
 			}

@@ -50,10 +50,8 @@ public class MenuController {
 
 	@RequestMapping("/menuCamiseta")
 	public String opcionCamisetas(Model model) {
-		List<Producto> listaRopa = productosRepo.findAll();
-		List<Producto> listaCamisetas = listaRopa.stream().filter(prod -> prod.getCategoria().getId() == 1)
-				.collect(Collectors.toList());
-
+		List<Producto> listaCamisetas = productosRepo.buscarCamisetasVisibles();
+		
 		model.addAttribute("atr_lista_camisetas", listaCamisetas);
 		model.addAttribute("atr_lista_categorias", categoriasRepo.findAll());
 		
@@ -64,9 +62,7 @@ public class MenuController {
 
 	@RequestMapping("/menuFalda")
 	public String opcionFaldas(Model model) {
-		List<Producto> listaRopa = productosRepo.findAll();
-		List<Producto> listaFaldas = listaRopa.stream().filter(prod -> prod.getCategoria().getId() == 2)
-				.collect(Collectors.toList());
+		List<Producto> listaFaldas = productosRepo.buscarFaldasVisibles();
 
 		model.addAttribute("atr_lista_faldas", listaFaldas);
 		model.addAttribute("atr_lista_categorias", categoriasRepo.findAll());
@@ -75,9 +71,7 @@ public class MenuController {
 
 	@RequestMapping("/menuJersey")
 	public String opcionJerseys(Model model) {
-		List<Producto> listaRopa = productosRepo.findAll();
-		List<Producto> listaJerseys = listaRopa.stream().filter(prod -> prod.getCategoria().getId() == 3)
-				.collect(Collectors.toList());
+		List<Producto> listaJerseys = productosRepo.buscarJerseysVisibles();
 
 		model.addAttribute("atr_lista_jerseys", listaJerseys);
 		model.addAttribute("atr_lista_categorias", categoriasRepo.findAll());
@@ -86,9 +80,7 @@ public class MenuController {
 
 	@RequestMapping("/menuPantalon")
 	public String opcionPantalones(Model model) {
-		List<Producto> listaRopa = productosRepo.findAll();
-		List<Producto> listaPantalones = listaRopa.stream().filter(prod -> prod.getCategoria().getId() == 4)
-				.collect(Collectors.toList());
+		List<Producto> listaPantalones = productosRepo.buscarPantalonesVisibles();
 
 		model.addAttribute("atr_lista_pantalones", listaPantalones);
 		model.addAttribute("atr_lista_categorias", categoriasRepo.findAll());

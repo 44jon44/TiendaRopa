@@ -12,7 +12,21 @@ import com.ipartek.model.Producto;
 @Repository
 public interface ProductoRepository extends JpaRepository<Producto, Integer>{
 	
-	@Query(value = "SELECT * FROM productos WHERE nombre = :producto AND genero_id = :genero AND categoria_id = :categoria", nativeQuery = true)
-	List<Producto> buscarProducto(@Param("producto") String prod, @Param("genero") int genero, @Param("categoria") int categoria);
+	@Query(value = "SELECT * FROM productos WHERE nombre = :producto AND genero_id = :genero AND categoria_id = :categoria AND talla_id = :talla", nativeQuery = true)
+	List<Producto> buscarProducto(@Param("producto") String prod, @Param("genero") int genero, @Param("categoria") int categoria, @Param("talla") int talla);
 	
+	@Query(value = "SELECT * FROM productos WHERE visible=1", nativeQuery = true)
+	List<Producto> buscarTodosVisibles();
+
+	@Query(value = "SELECT * FROM productos WHERE visible=1 and categoria_id=1", nativeQuery = true)
+	List<Producto> buscarCamisetasVisibles();
+	
+	@Query(value = "SELECT * FROM productos WHERE visible=1 and categoria_id=2", nativeQuery = true)
+	List<Producto> buscarFaldasVisibles();
+	
+	@Query(value = "SELECT * FROM productos WHERE visible=1 and categoria_id=3", nativeQuery = true)
+	List<Producto> buscarJerseysVisibles();
+	
+	@Query(value = "SELECT * FROM productos WHERE visible=1 and categoria_id=4", nativeQuery = true)
+	List<Producto> buscarPantalonesVisibles();
 }
